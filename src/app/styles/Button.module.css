@@ -1,0 +1,13 @@
+.mainButton {
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    background-color: #f7ad3e;
+    color: #0a676d;
+    font-size: medium;
+    font-weight: 700;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.aboutContainer {
+    background-image: url(/pictures/about-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 1rem;
+}
+
+.divTextAbout {
+    width: 45%;
+    padding: 2rem 3rem;
+}
+
+.tittleAbout {
+    font-family: "Calistoga", cursive;
+    padding-bottom: 2rem;
+    font-size: 36px;
+}
+
+.textAbout {
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 2rem;
+    text-align: justify;
+}

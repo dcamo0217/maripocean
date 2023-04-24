@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.divCardsServices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+.servicesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+    height: 100vh;
+    background: #fff8ef;
+    text-align: center;
+}
+
+.servicesContent {
+    margin: 2rem 8rem;
+}
+
+.tittleServices {
+    font-family: "Calistoga", cursive;
+    font-size: 34px;
+    margin-bottom: 1rem;
+    color: #08b4c0;
+}
+
+.textServices {
+    color: #0a676d;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
