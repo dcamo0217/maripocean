@@ -1,5 +1,6 @@
 import About from "./components/about/About";
 import Blogs from "./components/blogs/Blogs";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Register from "./components/register/Register";
 import Reviews from "./components/reviews/Reviews";
@@ -14,6 +15,7 @@ export default function Home() {
             <Reviews />
             <Blogs />
             <Register />
+            <Footer />
         </>
     );
 }

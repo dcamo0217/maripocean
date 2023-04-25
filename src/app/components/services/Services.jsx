@@ -4,16 +4,19 @@ import CardServices from "./CardServices";
 
 const cardInfo = [
     {
+        key: 1,
         textTitle: "Despertar Oceánico The Camp Experience",
         textBttn: "Proximas fechas",
         urlImg: "/pictures/card-services-image-1.png",
     },
     {
+        key: 2,
         textTitle: "Clases y cursos con escuelas certificadas",
         textBttn: "Agenda tu clase",
         urlImg: "/pictures/card-services-image-2.png",
     },
     {
+        key: 3,
         textTitle: "Daytrips y viajes de surf",
         textBttn: "Proximas fechas",
         urlImg: "/pictures/card-services-image-3.png",
@@ -38,6 +41,7 @@ const Services = () => {
                     {cardInfo.map((card) => {
                         return (
                             <CardServices
+                                key={card.key}
                                 textTitle={card.textTitle}
                                 textBttn={card.textBttn}
                                 urlImg={card.urlImg}

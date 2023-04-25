@@ -29,6 +29,7 @@
     justify-content: center;
     background: #ffffff;
     text-align: left;
+    flex-wrap: wrap;
 }
 .blogContent {
     color: #0a676d;
