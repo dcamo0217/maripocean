@@ -53,6 +53,7 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 .blogTitle {
     font-family: "Calistoga", cursive;
@@ -124,4 +125,25 @@
 .trendingBlogContainer,
 .blogContainer {
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1270px) {
+    .blogList {
+        justify-content: center;
+    }
+    .blogContainer {
+        margin: 0.5rem;
+    }
+    .blogsContainer {
+        height: 200vh;
+    }
+    .divBlogs {
+        padding: 0rem;
+    }
+}
+
+@media (max-width: 790px) {
+    .blogsContainer {
+        height: 250vh;
+    }
 }

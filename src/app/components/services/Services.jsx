@@ -18,7 +18,7 @@ const cardInfo = [
     {
         key: 3,
         textTitle: "Daytrips y viajes de surf",
-        textBttn: "Proximas fechas",
+        textBttn: "Más información",
         urlImg: "/pictures/card-services-image-3.png",
     },
 ];

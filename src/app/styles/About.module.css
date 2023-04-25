@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-
 .aboutContainer {
     background-image: url(/pictures/about-image.png);
     background-size: cover;
@@ -29,4 +26,12 @@
     font-family: "Poppins", sans-serif;
     padding-bottom: 2rem;
     text-align: justify;
+}
+
+@media (max-width: 880px) {
+    .divTextAbout {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
