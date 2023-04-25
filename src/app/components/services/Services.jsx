@@ -2,6 +2,24 @@ import React from "react";
 import styles from "./../../styles/Services.module.css";
 import CardServices from "./CardServices";
 
+const cardInfo = [
+    {
+        textTitle: "Despertar Oceánico The Camp Experience",
+        textBttn: "Proximas fechas",
+        urlImg: "/pictures/card-services-image-1.png",
+    },
+    {
+        textTitle: "Clases y cursos con escuelas certificadas",
+        textBttn: "Agenda tu clase",
+        urlImg: "/pictures/card-services-image-2.png",
+    },
+    {
+        textTitle: "Daytrips y viajes de surf",
+        textBttn: "Proximas fechas",
+        urlImg: "/pictures/card-services-image-3.png",
+    },
+];
+
 const Services = () => {
     return (
         <div className={styles.servicesContainer}>
@@ -17,18 +35,15 @@ const Services = () => {
                     we’ve got you.
                 </p>
                 <div className={styles.divCardsServices}>
-                    <CardServices
-                        textTitle="Despertar Oceánico The Camp Experience"
-                        textBttn="Proximas fechas"
-                    />
-                    <CardServices
-                        textTitle="Clases y cursos con escuelas certificadas"
-                        textBttn="Agenda tu clase"
-                    />
-                    <CardServices
-                        textTitle="Maripocean daytrips"
-                        textBttn="Más información"
-                    />
+                    {cardInfo.map((card) => {
+                        return (
+                            <CardServices
+                                textTitle={card.textTitle}
+                                textBttn={card.textBttn}
+                                urlImg={card.urlImg}
+                            />
+                        );
+                    })}
                 </div>
             </div>
         </div>

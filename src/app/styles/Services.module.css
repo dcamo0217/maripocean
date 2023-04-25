@@ -1,6 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
+.buttonDivCard {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.cardContainer {
+    width: 100%;
+    max-width: 277px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cardContent {
+    height: auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #0a676d);
+    padding: 1rem;
+}
+
 .divCardsServices {
     display: flex;
     flex-direction: row;
@@ -13,6 +32,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0 30px;
     height: 133vh;
     background: #fff8ef;
@@ -26,7 +46,7 @@
 .titleServices {
     font-family: "Calistoga", cursive;
     font-size: 34px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: #08b4c0;
 }
 
@@ -34,4 +54,13 @@
     color: #0a676d;
     font-weight: 700;
     margin-bottom: 1.5rem;
+}
+
+.titleCard {
+    font-family: "Poppins", cursive;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    text-align: left;
+    font-size: 17px;
+    padding: 1rem;
 }

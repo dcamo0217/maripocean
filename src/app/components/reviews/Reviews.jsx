@@ -6,22 +6,25 @@ const cardInfo = [
     {
         name: "Paul Johnson",
         date: "December 4, 2023",
-        stars: "5",
+        stars: 5,
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        iconColor: "#00ABAB",
     },
     {
         name: "Lina Gómez",
         date: "December 4, 2023",
-        stars: "5",
+        stars: 5,
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        iconColor: "#E9609E",
     },
     {
         name: "Pedro Ríos",
         date: "December 4, 2023",
-        stars: "5",
+        stars: 5,
         description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        iconColor: "#4CB278",
     },
 ];
 

@@ -5,7 +5,13 @@ const NavBar = () => {
     return (
         <>
             <div className={styles.navBarContainer}>
-                <h1>Header</h1>
+                <a href="/">
+                    <img
+                        className={styles.logo}
+                        src="/pictures/logo.png"
+                        alt=""
+                    />
+                </a>
                 <ul className={styles.navBar}>
                     <li>
                         <a href="#">Home</a>
