@@ -5,8 +5,15 @@ import Button from "../Button";
 
 function Header() {
     return (
-        <>
-            <div className={styles.headerContainer}>
+        <div className={styles.headerContainer}>
+            <video
+                src="/videos/videobanner.mp4"
+                autoPlay
+                muted
+                loop
+                className={styles.myVideo}
+            ></video>
+            <div className={styles.headerContent}>
                 <NavBar />
                 <h1 className={styles.titleHeader}>
                     Escape from your routine with exclusive tourism experiences
@@ -16,7 +23,7 @@ function Header() {
                     <Button textButton="Learn more" />
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

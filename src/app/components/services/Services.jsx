@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./../../styles/Services.module.css";
-import Card from "./Card";
+import CardServices from "./CardServices";
 
 const Services = () => {
     return (
         <div className={styles.servicesContainer}>
             <div className={styles.servicesContent}>
-                <h2 className={styles.tittleServices}>
+                <h2 className={styles.titleServices}>
                     Looking for camps, courses, daytrips or just a lesson in
                     surf, kitesurf and wingfoil in Colombia?
                 </h2>
@@ -17,16 +17,15 @@ const Services = () => {
                     we’ve got you.
                 </p>
                 <div className={styles.divCardsServices}>
-                    <Card
-                        textTitle="Despertar Oceánico
-The Camp Experience"
+                    <CardServices
+                        textTitle="Despertar Oceánico The Camp Experience"
                         textBttn="Proximas fechas"
                     />
-                    <Card
+                    <CardServices
                         textTitle="Clases y cursos con escuelas certificadas"
                         textBttn="Agenda tu clase"
                     />
-                    <Card
+                    <CardServices
                         textTitle="Maripocean daytrips"
                         textBttn="Más información"
                     />

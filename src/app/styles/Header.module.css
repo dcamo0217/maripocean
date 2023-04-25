@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
+.myVideo {
+    position: absolute;
+    height: 133vh;
+}
+
 .divBttn {
     display: flex;
     justify-content: center;
@@ -8,22 +13,24 @@
 }
 
 .headerContainer {
+    position: relative;
+    height: 133vh;
+}
+
+.headerContent {
+    position: absolute;
     font-family: "Calistoga", cursive;
     text-shadow: 0px 0px 5px #000;
-    background-image: url(https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_1280.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+    height: 133vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navBarContainer {
     display: flex;
     justify-content: space-between;
-    padding: 4rem 6rem;
+    padding: 0rem 6rem;
 }
 
 .navBar {
@@ -40,4 +47,5 @@
     text-align: center;
     width: 60%;
     margin: 0 auto;
+    font-size: 34px;
 }

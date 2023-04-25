@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className={styles.aboutContainer}>
             <div className={styles.divTextAbout}>
-                <h2 className={styles.tittleAbout}>What makes us special</h2>
+                <h2 className={styles.titleAbout}>What makes us special</h2>
                 <p className={styles.textAbout}>
                     Maripocean is an ecosystem focused on bringing balance to
                     your mental and physical health through the practice of

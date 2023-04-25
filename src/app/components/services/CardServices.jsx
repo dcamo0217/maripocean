@@ -3,10 +3,10 @@ import Button from "../Button";
 import styles from "./../../styles/Card.module.css";
 import PropTypes from "prop-types";
 
-const Card = ({ textTitle, textBttn }) => {
+const CardServices = ({ textTitle, textBttn }) => {
     return (
         <div className={styles.cardContainer}>
-            <p className={styles.tittleCard}>{textTitle}</p>
+            <p className={styles.titleCard}>{textTitle}</p>
             <div className={styles.buttonDivCard}>
                 <Button textButton={textBttn} />
             </div>
@@ -14,9 +14,9 @@ const Card = ({ textTitle, textBttn }) => {
     );
 };
 
-Card.propTypes = {
+CardServices.propTypes = {
     textTitle: PropTypes.string.isRequired,
     textBttn: PropTypes.string.isRequired,
 };
 
-export default Card;
+export default CardServices;

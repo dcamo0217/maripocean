@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 133vh;
     width: 100vw;
     padding: 0 1rem;
 }
@@ -19,7 +19,7 @@
     padding: 2rem 3rem;
 }
 
-.tittleAbout {
+.titleAbout {
     font-family: "Calistoga", cursive;
     padding-bottom: 2rem;
     font-size: 36px;
