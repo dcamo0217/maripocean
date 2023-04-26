@@ -67,3 +67,8 @@
         margin-bottom: 1rem;
     }
 }
+@media (max-width: 340px) {
+    .registerContainer {
+        height: 100vh;
+    }
+}

@@ -35,3 +35,8 @@
         text-align: center;
     }
 }
+@media (max-width: 400px) {
+    .aboutContainer {
+        height: 200vh;
+    }
+}
