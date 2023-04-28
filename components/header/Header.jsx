@@ -1,13 +1,13 @@
 import React from "react";
 import NavBar from "./NavBar";
-import styles from "./../../styles/Header.module.css";
+import styles from "./../../styles/home/Header.module.css";
 import Button from "../Button";
 
 function Header() {
     return (
         <div className={styles.headerContainer}>
             <video
-                src="/videos/videobanner.mp4"
+                src="/video/videobanner.mp4"
                 autoPlay
                 muted
                 loop

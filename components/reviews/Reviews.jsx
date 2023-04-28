@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./../../styles/Reviews.module.css";
-import CardReviews from "./CardReviews";
+import styles from "./../../styles/home/Reviews.module.css";
+import CardReviews from "./CardReview";
 
 const cardInfo = [
     {

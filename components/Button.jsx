@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from "./../styles/Button.module.css";
+import styles from "./../styles/home/Button.module.css";
 
 const Button = ({ textButton }) => {
     return <button className={styles.mainButton}>{textButton}</button>;

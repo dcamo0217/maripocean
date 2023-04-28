@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./../../styles/About.module.css";
+import styles from "./../../styles/home/About.module.css";
 import Button from "../Button";
 
 const About = () => {

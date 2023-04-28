@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button";
-import styles from "./../../styles/Register.module.css";
+import styles from "./../../styles/home/Register.module.css";
 
 const Register = () => {
     return (

@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from "./../../styles/Reviews.module.css";
+import styles from "./../../styles/home/Reviews.module.css";
 
-const CardReviews = ({ cardInfo }) => {
+const CardReview = ({ cardInfo }) => {
     return (
         <>
             {cardInfo.map((card) => {
@@ -44,8 +44,8 @@ const CardReviews = ({ cardInfo }) => {
     );
 };
 
-CardReviews.propTypes = {
+CardReview.propTypes = {
     cardInfo: PropTypes.array.isRequired,
 };
 
-export default CardReviews;
+export default CardReview;

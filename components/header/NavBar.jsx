@@ -1,5 +1,7 @@
 import React from "react";
-import styles from "./../../styles/Header.module.css";
+import Link from "next/link";
+
+import styles from "./../../styles/home/Header.module.css";
 
 const NavBar = () => {
     return (
@@ -14,22 +16,22 @@ const NavBar = () => {
                 </a>
                 <ul className={styles.navBar}>
                     <li>
-                        <a href="#">Home</a>
+                        <Link href="/">Home</Link>
                     </li>
                     <li>
-                        <a href="#">Camps</a>
+                        <Link href="/camps">Camps</Link>
                     </li>
                     <li>
-                        <a href="#">Lessons</a>
+                        <Link href="/lessons">Lessons</Link>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <Link href="/about">About</Link>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <Link href="/blog">Blog</Link>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <Link href="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>

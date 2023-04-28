@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from "./../../styles/Blogs.module.css";
+import styles from "./../../styles/home/Blogs.module.css";
 
 const Blog = (blog) => {
     return (
