@@ -2,57 +2,82 @@ import CampsHeader from "@/components/camps/CampsHeader";
 import CampsNav from "@/components/camps/CampsNav";
 import Carousel from "@/components/camps/Carrusel";
 
-import styles from "@/styles/camps/Overview.module.css";
+import styles from "@/styles/camps/Camps.module.css";
 
 const pictures = [
     {
         id: 1,
-        src: "/pictures/camps/overview-image-1.png",
+        src: "/pictures/camps/who-is-this-for/who-is-1.png",
         alt: "firts picture",
     },
     {
         id: 2,
-        src: "/pictures/camps/overview-image-2.png",
+        src: "/pictures/camps/who-is-this-for/who-is-2.png",
         alt: "second picture",
     },
     {
         id: 3,
-        src: "/pictures/camps/overview-image-3.png",
+        src: "/pictures/camps/who-is-this-for/who-is-3.png",
         alt: "third picture",
     },
     {
         id: 4,
-        src: "/pictures/camps/overview-image-4.png",
+        src: "/pictures/camps/who-is-this-for/who-is-4.png",
         alt: "fourth picture",
+    },
+    {
+        id: 5,
+        src: "/pictures/camps/who-is-this-for/who-is-5.png",
+        alt: "fifth picture",
+    },
+    {
+        id: 6,
+        src: "/pictures/camps/who-is-this-for/who-is-6.png",
+        alt: "sixth picture",
     },
 ];
 
-export default function overview() {
+export default function whoIsThisFor() {
     return (
         <div div style={{ backgroundColor: "#FFF8EF" }}>
             <CampsHeader />
             <CampsNav />
-            <div className={styles.overviewContainer}>
-                <div className={styles.overviewContent}>
-                    <h3 className={styles.overviewTitle}>
-                        Are you ready to connect with the ocean in a fun new way
-                        learning surf, kitesurf and wingfoil all at once?
-                    </h3>
-                    <p className={styles.overviewText}>
-                        Have you always wanted to try surf, kitesurf or wingfoil
-                        when watching your friends or travelers at amazing
-                        spots? Have you always wanted to feel the water and the
-                        wind in an exciting brand new way? Surf, kitesurf and
-                        wingfoil are amazing watersports that connect you with
-                        nature, balance and freedom. They transform your
-                        physical and mental health in ways you’ve never
-                        imagined. Come join us in an epic journey of adventure,
-                        balance and connection. <br />
-                        <br /> A wave of contagious good vibes awaits you.
-                    </p>
-                </div>
-                <div className={styles.overviewCarousel}>
+            <div className={styles.campsContainer}>
+                <div className={styles.campsCarousel}>
                     <Carousel images={pictures} />
+                </div>
+                <div className={styles.campsContent}>
+                    <h3 className={styles.campsTitle}>
+                        Who is this experience for?
+                    </h3>
+                    <div className={styles.campsText}>
+                        <ul>
+                            <li>
+                                Adventurous souls in search of freedom and
+                                connection with nature
+                            </li>
+                            <li>
+                                People looking to disconnect from stress and
+                                routine
+                            </li>
+                            <li>
+                                People in search of a passion that brings
+                                well-being and balance to their lives
+                            </li>
+                            <li>
+                                Travelers looking for a fun and different
+                                weekend discovering trendy water sports in
+                                Colombia
+                            </li>
+                        </ul>
+                        <p>
+                            This experience requires you to have basic swimming
+                            skills and confidence with the ocean. You don’t need
+                            to have previous experience with water sports, as
+                            it’s for beginners. If you can’t swim or panic with
+                            the ocean this might not be for you.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
