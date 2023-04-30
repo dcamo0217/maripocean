@@ -1,0 +1,28 @@
+.navList {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4rem;
+    width: 70%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.navItem {
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.navLink {
+    text-decoration: none;
+    color: #0a676d;
+}
+.currentPage {
+    color: #00abab;
+}
+
+.bookItem {
+    background-color: #f7ad3e;
+    padding: 0.2rem 0.8rem;
+    border-radius: 25px;
+}

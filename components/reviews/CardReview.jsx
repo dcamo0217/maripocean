@@ -7,7 +7,7 @@ const CardReview = ({ cardInfo }) => {
         <>
             {cardInfo.map((card) => {
                 return (
-                    <div className={styles.cardContainer}>
+                    <div key={card.key} className={styles.cardContainer}>
                         {" "}
                         <div className={styles.userInfoDiv}>
                             <div

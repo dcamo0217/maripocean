@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className={styles.headerContainer}>
             <video
-                src="/video/videobanner.mp4"
+                src="/video/home/videobanner.mp4"
                 autoPlay
                 muted
                 loop

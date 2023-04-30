@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-
 .blogsContainer {
     display: flex;
     flex-direction: column;
@@ -74,7 +71,7 @@
 }
 
 .trendingBlogContainer {
-    background-image: url(/pictures/trending-blog-image.png);
+    background-image: url(/pictures/home/trending-blog-image.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

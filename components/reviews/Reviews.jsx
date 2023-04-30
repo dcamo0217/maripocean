@@ -4,6 +4,7 @@ import CardReviews from "./CardReview";
 
 const cardInfo = [
     {
+        key: 1,
         name: "Paul Johnson",
         date: "December 4, 2023",
         stars: 5,
@@ -12,6 +13,7 @@ const cardInfo = [
         iconColor: "#00ABAB",
     },
     {
+        key: 2,
         name: "Lina Gómez",
         date: "December 4, 2023",
         stars: 5,
@@ -19,6 +21,7 @@ const cardInfo = [
         iconColor: "#E9609E",
     },
     {
+        key: 3,
         name: "Pedro Ríos",
         date: "December 4, 2023",
         stars: 5,
