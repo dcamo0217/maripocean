@@ -70,7 +70,13 @@ export default function whoIsThisFor() {
                                 Colombia
                             </li>
                         </ul>
-                        <p>
+                        <p
+                            style={{
+                                fontStyle: "italic",
+                                fontSize: "11px",
+                                color: "#00ABAB",
+                            }}
+                        >
                             This experience requires you to have basic swimming
                             skills and confidence with the ocean. You don’t need
                             to have previous experience with water sports, as
