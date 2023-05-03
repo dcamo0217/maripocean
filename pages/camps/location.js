@@ -4,7 +4,7 @@ import Carousel from "@/components/camps/Carrusel";
 
 import styles from "@/styles/camps/Camps.module.css";
 
-const pictures = [
+const pictures1 = [
     {
         id: 1,
         src: "/pictures/camps/location/location-image-1.png",
@@ -27,12 +27,38 @@ const pictures = [
     },
 ];
 
+const pictures2 = [
+    {
+        id: 1,
+        src: "/pictures/camps/location/location-image-5.png",
+        alt: "firts picture",
+    },
+    {
+        id: 2,
+        src: "/pictures/camps/location/location-image-6.png",
+        alt: "second picture",
+    },
+    {
+        id: 3,
+        src: "/pictures/camps/location/location-image-7.png",
+        alt: "third picture",
+    },
+    {
+        id: 4,
+        src: "/pictures/camps/location/location-image-8.png",
+        alt: "fourth picture",
+    },
+];
+
 export default function location() {
     return (
         <div div style={{ backgroundColor: "#FFF8EF" }}>
             <CampsHeader />
             <CampsNav />
-            <div className={styles.campsContainer}>
+            <div
+                className={styles.campsContainer}
+                style={{ paddingBottom: "1rem" }}
+            >
                 <div className={styles.campsContent}>
                     <h3 className={styles.campsTitle}>
                         Our watersports highway
@@ -57,7 +83,28 @@ export default function location() {
                     </p>
                 </div>
                 <div className={styles.campsCarousel}>
-                    <Carousel images={pictures} />
+                    <Carousel images={pictures1} />
+                </div>
+            </div>
+            <div className={styles.campsContainer}>
+                <div className={styles.campsCarousel}>
+                    <Carousel images={pictures2} />
+                </div>
+                <div className={styles.campsContent}>
+                    <h3 className={styles.campsTitle}>Lodging</h3>
+                    <p className={styles.campsText}>
+                        Despertar Oceánico The Experience is hosted in a private
+                        brand new house, fully private at a short walk from the
+                        front beach at Pradomar. Wake up with the sound of wind
+                        and birds, surrounded by fruit trees and an awesome
+                        ocean view. Our house can accommodate 12 people in
+                        double rooms each with private bathrooms and A/C. There
+                        is a beautiful swimming pool, a sundeck amazing for
+                        sunset, yoga and ocean views and a hang-out area to
+                        enjoy tribe conversations or siestas. Our house is set
+                        for the perfect rest and comfort you need for a perfect
+                        week of adventure, sports and mental health balance.
+                    </p>
                 </div>
             </div>
         </div>

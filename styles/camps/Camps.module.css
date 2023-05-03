@@ -6,6 +6,8 @@
 
 .campsContainer {
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 4rem 2rem 6rem 2rem;
     color: #0a676d;
 }
@@ -13,6 +15,7 @@
 .campsTitle {
     font-family: "Calistoga", cursive;
     font-size: 30px;
+    color: #0a676d;
 }
 
 .campsText {
@@ -20,4 +23,5 @@
     margin-top: 1rem;
     font-size: 14px;
     text-align: justify;
+    color: #0a676d;
 }

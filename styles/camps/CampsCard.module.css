@@ -1,0 +1,12 @@
+.cardTitleContainer {
+    background-color: #00abab;
+    padding: 6px;
+}
+
+.cardTitleText {
+    font-family: "Roca Two Bold", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
