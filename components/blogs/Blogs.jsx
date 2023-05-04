@@ -4,21 +4,21 @@ import Blog from "./Blog";
 
 const infoBlogs = [
     {
-        image: "/pictures/blog-image-1.png",
+        image: "/pictures/home/blog-image-1.png",
         title: "Maripocean: The experience",
         category: "SERVICES",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum mollis eleifend. Duis lobortis lorem.",
     },
     {
-        image: "/pictures/blog-image-2.png",
+        image: "/pictures/home/blog-image-2.png",
         title: "Maripocean: The experience",
         category: "SERVICES",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum mollis eleifend. Duis lobortis lorem.",
     },
     {
-        image: "/pictures/blog-image-3.png",
+        image: "/pictures/home/blog-image-3.png",
         title: "Maripocean: The experience",
         category: "SERVICES",
         description:

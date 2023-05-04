@@ -26,7 +26,7 @@
     justify-content: center;
     background: #ffffff;
     text-align: left;
-    flex-wrap: wrap;
+    margin: 0 10px;
 }
 .blogContent {
     color: #0a676d;
@@ -50,7 +50,7 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 2rem;
-    flex-wrap: wrap;
+    
 }
 .blogTitle {
     font-family: "Calistoga", cursive;
@@ -127,9 +127,11 @@
 @media (max-width: 1270px) {
     .blogList {
         justify-content: center;
+        flex-wrap: wrap;
     }
     .blogContainer {
         margin: 0.5rem;
+        
     }
     .blogsContainer {
         height: 200vh;

@@ -26,7 +26,7 @@ const Footer = () => {
                     <p className={styles.title}>Follow us:</p>
                     <img
                         className={styles.igIcon}
-                        src="/pictures/instagram-icon.png"
+                        src="/pictures/home/instagram-icon.png"
                         alt="instagram_icon.png"
                     />
                     <p className={styles.text}>@maripocean</p>
