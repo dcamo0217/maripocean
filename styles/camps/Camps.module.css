@@ -1,27 +1,32 @@
 .campsContent,
 .campsCarousel {
-    width: 50%;
-    padding: 0 3rem;
+  width: 13%;
+  padding: 1rem 2rem;
+  flex-basis: 50%;
 }
 
 .campsContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem 2rem 6rem 2rem;
-    color: #0a676d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem 6rem 2rem;
+  color: #0a676d;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 930px;
+  margin: auto;
 }
 
 .campsTitle {
-    font-family: "Calistoga", cursive;
-    font-size: 30px;
-    color: #0a676d;
+  font-family: "Calistoga", cursive;
+  font-size: 30px;
+  color: #0a676d;
 }
 
 .campsText {
-    font-family: "Poppins", sans-serif;
-    margin-top: 1rem;
-    font-size: 14px;
-    text-align: justify;
-    color: #0a676d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+  font-size: 14px;
+  text-align: justify;
+  color: #0a676d;
 }

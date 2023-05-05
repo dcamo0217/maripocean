@@ -1,12 +1,33 @@
+.availableCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #cfedef;
+  padding: 0.5rem 0;
+  font-family: "Roca Two", sans-serif;
+  margin: 3px;
+}
+
+.availableCardColumn {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 200px;
+  padding: 0.5rem 1rem;
+}
+
 .cardTitleContainer {
-    background-color: #00abab;
-    padding: 6px;
+  background-color: #00abab;
+  padding: 6px;
+  margin: 0 3px;
 }
 
 .cardTitleText {
-    font-family: "Roca Two Bold", sans-serif;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: "Roca Two Bold", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
 }
