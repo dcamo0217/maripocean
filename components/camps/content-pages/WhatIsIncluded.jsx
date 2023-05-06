@@ -37,7 +37,7 @@ const pictures = [
 
 const WhatIsIncluded = () => {
   return (
-    <div div style={{ backgroundColor: "#FFF8EF" }}>
+    <div style={{ backgroundColor: "#FFF8EF" }}>
       <div className={styles.campsContainer}>
         <div className={styles.campsContent}>
           <h3 className={styles.campsTitle}>What’s included?</h3>

@@ -6,9 +6,12 @@
   border-radius: 50px;
   font-family: "Poppins", sans-serif;
   background-color: #f7ad3e;
-  color: #0a676d;
+
   font-size: medium;
   font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  color: #0a676d !important;
 }
 
 .primary {

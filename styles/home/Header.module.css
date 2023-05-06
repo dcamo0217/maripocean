@@ -1,68 +1,69 @@
 .divBttn {
-    display: flex;
-    justify-content: center;
-    padding: 4rem;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
 }
 
 .headerContainer {
-    position: relative;
-    height: 133vh;
-    color: white;
+  position: relative;
+  height: 133vh;
 }
 
 .headerContainer a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .headerContent {
-    position: absolute;
-    font-family: "Calistoga", cursive;
-    text-shadow: 0px 0px 5px #000;
-    height: 133vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  position: absolute;
+  font-family: "Calistoga", cursive;
+
+  height: 133vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .myVideo {
-    position: absolute;
-    height: 133vh;
+  position: absolute;
+  height: 133vh;
 }
 
 .logo {
-    width: 100px;
+  width: 100px;
 }
 
 .navBarContainer {
-    display: flex;
-    justify-content: space-between;
-    padding: 0rem 6rem;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 6rem;
+  flex-wrap: wrap;
 }
 
 .navBar {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-    max-width: 400px;
-    flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  max-width: 400px;
+  flex-wrap: wrap;
+  text-shadow: 0px 0px 5px #000;
 }
 
 .titleHeader {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-    font-size: 34px;
-    color: white;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 34px;
+  color: white;
+  text-shadow: 0px 0px 5px #000;
 }
 
 @media (max-width: 790px) {
-    .navBarContainer {
-        flex-direction: column;
-        align-items: center;
-    }
+  .navBarContainer {
+    flex-direction: column;
+    align-items: center;
+  }
 }

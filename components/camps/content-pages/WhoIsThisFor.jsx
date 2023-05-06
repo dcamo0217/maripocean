@@ -37,7 +37,7 @@ const pictures = [
 
 const WhoIsThisFor = () => {
   return (
-    <div div style={{ backgroundColor: "#FFF8EF" }}>
+    <div style={{ backgroundColor: "#FFF8EF" }}>
       <div className={styles.campsContainer}>
         <div className={styles.campsCarousel}>
           <Carousel images={pictures} />

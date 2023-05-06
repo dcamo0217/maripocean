@@ -42,6 +42,8 @@ const CampsHeader = () => {
                 backgroundColor: "rgba(255 248 239 / 0.4)",
                 padding: "8px",
                 margin: "0 5px",
+                color: "#ffffff",
+                textShadow: "0px 0px 5px #000",
               }}
             >
               July - August 2023
@@ -51,6 +53,8 @@ const CampsHeader = () => {
                 backgroundColor: "rgba(255 248 239 / 0.4)",
                 padding: "8px",
                 margin: "0 5px",
+                color: "#ffffff",
+                textShadow: "0px 0px 5px #000",
               }}
             >
               2 dates
@@ -60,6 +64,8 @@ const CampsHeader = () => {
                 backgroundColor: "rgba(255 248 239 / 0.4)",
                 padding: "8px",
                 margin: "0 5px",
+                color: "#ffffff",
+                textShadow: "0px 0px 5px #000",
               }}
             >
               Doors open!

@@ -50,7 +50,7 @@ const pictures2 = [
 
 const Location = () => {
   return (
-    <div div style={{ backgroundColor: "#FFF8EF" }}>
+    <div style={{ backgroundColor: "#FFF8EF" }}>
       <div className={styles.campsContainer} style={{ paddingBottom: "1rem" }}>
         <div className={styles.campsContent}>
           <h3 className={styles.campsTitle}>Our watersports highway</h3>

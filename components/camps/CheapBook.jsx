@@ -6,16 +6,11 @@ import styles from "../../styles/camps/CampsCard.module.css";
 
 const CheapBook = ({ price, valid }) => {
   return (
-    <div className={styles.dateCardContent}>
-      <div className={styles.dateCardColumn}>
-        <h4>Early Bird</h4>
-      </div>
-      <div className={styles.dateCardColumn}>
-        <h3>{price}</h3>
-      </div>
-      <div className={styles.dateCardColumn}>
-        <h4>Valid {valid}</h4>
-      </div>
+    <div className={styles.cheapBookCardContent}>
+      <h4 className={styles.cheapBookCardTitle}>Early Bird</h4>
+      <h3 className={styles.cheapBookCardPrice}>{price}</h3>
+      <h4 className={styles.cheapBookCardValid}>Valid {valid}</h4>
+
       <div style={{ padding: "0.5rem 0" }}>
         <Button textButton="Book via wiretransfer" typeBtn="second" />
       </div>

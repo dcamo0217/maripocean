@@ -27,7 +27,7 @@ const pictures = [
 
 const Overview = () => {
   return (
-    <div div style={{ backgroundColor: "#FFF8EF" }}>
+    <div style={{ backgroundColor: "#FFF8EF" }}>
       <div className={styles.campsContainer}>
         <div className={styles.campsContent}>
           <h3 className={styles.campsTitle}>

@@ -2,6 +2,7 @@ import CheapBook from "@/components/camps/CheapBook";
 import TitleCard from "@/components/camps/TitleCard";
 
 import styles from "@/styles/camps/Camps.module.css";
+import FullBook from "../FullBook";
 
 const booksInfo = [
   {
@@ -33,17 +34,18 @@ const Book = () => {
     <div div style={{ backgroundColor: "#FFF8EF" }}>
       <h3
         className={styles.campsTitle}
-        style={{ textAlign: "center", padding: "2rem 0" }}
+        style={{ textAlign: "center", paddingTop: "2rem" }}
       >
         Choose your date in 2023
       </h3>
-      <div className={styles.campsContainer}>
-        <div className={styles.campsContent}>
+      <div className={styles.campsContainer} style={{ maxWidth: "none" }}>
+        <div style={{ width: "100%", display: "flex" }}>
           {booksInfo.map((bookInfo) => (
-            <div>
+            <div className={styles.campsContent}>
               <TitleCard title={bookInfo.date} />
-              <div>
+              <div style={{ display: "flex" }}>
                 <CheapBook {...bookInfo.earlyBird} />
+                <FullBook {...bookInfo.fullPrice} />
               </div>
             </div>
           ))}

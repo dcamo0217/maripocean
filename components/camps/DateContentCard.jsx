@@ -9,24 +9,24 @@ const DateContentCard = ({ title, available, level }) => {
     <div className={styles.dateCardContent}>
       <div className={styles.dateCardColumn}>
         <img
-          style={{ width: "16px", height: "16px", margin: "2px 10px" }}
+          style={{ width: "16px", height: "16px", margin: "6px 10px" }}
           src="/pictures/camps/check-icon.png"
           alt="check icon"
         />
         <div>
-          <h4>Availability</h4>
-          <p>{available}</p>
+          <h4 className={styles.dateCardTitle}>Availability</h4>
+          <p className={styles.dateCardText}>{available}</p>
         </div>
       </div>
       <div className={styles.dateCardColumn}>
         <img
-          style={{ width: "16px", height: "16px", margin: "2px 10px" }}
+          style={{ width: "16px", height: "16px", margin: "6px 10px" }}
           src="/pictures/camps/level-icon.png"
           alt="level icon"
         />
         <div>
-          <h4>Level</h4>
-          <p>{level}</p>
+          <h4 className={styles.dateCardTitle}>Level</h4>
+          <p className={styles.dateCardText}>{level}</p>
         </div>
       </div>
       <div style={{ padding: "0.5rem 0" }}>
