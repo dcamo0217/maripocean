@@ -1,28 +1,24 @@
-import CampsHeader from "@/components/camps/CampsHeader";
-import CampsNav from "@/components/camps/CampsNav";
 import TitleCard from "@/components/camps/TitleCard";
-import AvailableCard from "@/components/camps/AvailableCard";
+import DateContentCard from "@/components/camps/DateContentCard";
 
 import styles from "@/styles/camps/Camps.module.css";
 
 const datesInfo = [
   {
-    title: "June 30th - July 3rd",
+    date: "June 30th - July 3rd",
     available: "12 spots",
     level: "Beginners",
   },
   {
-    title: "August 4th - 7th",
+    date: "August 4th - 7th",
     available: "12 spots",
     level: "Beginners",
   },
 ];
 
-export default function dates() {
+const Dates = () => {
   return (
     <div style={{ backgroundColor: "#FFF8EF" }}>
-      <CampsHeader />
-      <CampsNav />
       <h3
         className={styles.campsTitle}
         style={{ textAlign: "center", padding: "2rem 0" }}
@@ -31,13 +27,15 @@ export default function dates() {
       </h3>
 
       <div className={styles.campsContainer}>
-        {datesInfo.map((date) => (
+        {datesInfo.map((dateInfo) => (
           <div className={styles.campsContent}>
-            <TitleCard title={date.title} />
-            <AvailableCard {...date} />
+            <TitleCard title={dateInfo.date} />
+            <DateContentCard {...dateInfo} />
           </div>
         ))}
       </div>
     </div>
   );
-}
+};
+
+export default Dates;

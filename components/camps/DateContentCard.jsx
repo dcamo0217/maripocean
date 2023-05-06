@@ -4,10 +4,10 @@ import Button from "../Button";
 
 import styles from "../../styles/camps/CampsCard.module.css";
 
-const availableCard = ({ title, available, level }) => {
+const DateContentCard = ({ title, available, level }) => {
   return (
-    <div className={styles.availableCardContent}>
-      <div className={styles.availableCardColumn}>
+    <div className={styles.dateCardContent}>
+      <div className={styles.dateCardColumn}>
         <img
           style={{ width: "16px", height: "16px", margin: "2px 10px" }}
           src="/pictures/camps/check-icon.png"
@@ -18,7 +18,7 @@ const availableCard = ({ title, available, level }) => {
           <p>{available}</p>
         </div>
       </div>
-      <div className={styles.availableCardColumn}>
+      <div className={styles.dateCardColumn}>
         <img
           style={{ width: "16px", height: "16px", margin: "2px 10px" }}
           src="/pictures/camps/level-icon.png"
@@ -36,9 +36,9 @@ const availableCard = ({ title, available, level }) => {
   );
 };
 
-availableCard.propTypes = {
+DateContentCard.propTypes = {
   available: PropTypes.string.isRequired,
   level: PropTypes.string.isRequired,
 };
 
-export default availableCard;
+export default DateContentCard;

@@ -1,4 +1,4 @@
-.availableCardContent {
+.dateCardContent {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -9,7 +9,7 @@
   margin: 3px;
 }
 
-.availableCardColumn {
+.dateCardColumn {
   display: flex;
   flex-direction: row;
   width: 100%;

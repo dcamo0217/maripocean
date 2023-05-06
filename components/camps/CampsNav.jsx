@@ -1,81 +1,60 @@
-import React from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
-
 import styles from "../../styles/camps/CampsNav.module.css";
 
-const CampsNav = () => {
-    const router = useRouter();
-    const currentRoute = router.pathname;
-    return (
-        <ul className={styles.navList}>
-            <li className={styles.navItem}>
-                <Link
-                    className={`${styles.navLink} ${
-                        currentRoute === "/camps/overview"
-                            ? styles.currentPage
-                            : ""
-                    }`}
-                    href="/camps/overview"
-                >
-                    Overview
-                </Link>
-            </li>
-            <li className={styles.navItem}>
-                <Link
-                    className={`${styles.navLink} ${
-                        currentRoute === "/camps/who-is-this-for"
-                            ? styles.currentPage
-                            : ""
-                    }`}
-                    href="/camps/who-is-this-for"
-                >
-                    Who is this for
-                </Link>
-            </li>
-            <li className={styles.navItem}>
-                <Link
-                    className={`${styles.navLink} ${
-                        currentRoute === "/camps/location"
-                            ? styles.currentPage
-                            : ""
-                    }`}
-                    href="/camps/location"
-                >
-                    Location
-                </Link>
-            </li>
-            <li className={styles.navItem}>
-                <Link
-                    className={`${styles.navLink} ${
-                        currentRoute === "/camps/dates"
-                            ? styles.currentPage
-                            : ""
-                    }`}
-                    href="/camps/dates"
-                >
-                    Dates
-                </Link>
-            </li>
-            <li className={styles.navItem}>
-                <Link
-                    className={`${styles.navLink} ${
-                        currentRoute === "/camps/what-is-included"
-                            ? styles.currentPage
-                            : ""
-                    }`}
-                    href="/camps/what-is-included"
-                >
-                    What's included
-                </Link>
-            </li>
-            <li className={`${styles.navItem} ${styles.bookItem}`}>
-                <Link className={styles.navLink} href="/camps/book">
-                    Book
-                </Link>
-            </li>
-        </ul>
-    );
+const CampsNav = (props) => {
+  const handleOptionClick = (option) => {
+    props.onSelect(option);
+  };
+
+  return (
+    <ul className={styles.navList}>
+      <li
+        className={`${styles.navItem} ${
+          props.selectedOption === "option1" ? `${styles.selected}` : ""
+        }`}
+        onClick={() => handleOptionClick("option1")}
+      >
+        Overview
+      </li>
+      <li
+        className={`${styles.navItem} ${
+          props.selectedOption === "option2" ? `${styles.selected}` : ""
+        }`}
+        onClick={() => handleOptionClick("option2")}
+      >
+        Who is this for
+      </li>
+      <li
+        className={`${styles.navItem} ${
+          props.selectedOption === "option3" ? `${styles.selected}` : ""
+        }`}
+        onClick={() => handleOptionClick("option3")}
+      >
+        Location
+      </li>
+      <li
+        className={`${styles.navItem} ${
+          props.selectedOption === "option4" ? `${styles.selected}` : ""
+        }`}
+        onClick={() => handleOptionClick("option4")}
+      >
+        Dates
+      </li>
+      <li
+        className={`${styles.navItem} ${
+          props.selectedOption === "option5" ? `${styles.selected}` : ""
+        }`}
+        onClick={() => handleOptionClick("option5")}
+      >
+        What's included
+      </li>
+      <li
+        onClick={() => handleOptionClick("option6")}
+        className={`${styles.navItem} ${styles.bookItem}`}
+      >
+        Book
+      </li>
+    </ul>
+  );
 };
 
 export default CampsNav;
