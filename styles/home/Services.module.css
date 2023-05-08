@@ -69,26 +69,20 @@
     margin: 2rem 1rem;
   }
 }
+@media (max-width: 1000px) {
+  .servicesContainer {
+    height: 190vh;
+  }
+}
 
 @media screen and (max-width: 980px) {
-  .servicesContainer {
-    height: 200vh;
-  }
   .cardContainer {
     margin: 0.5rem;
   }
 }
 
 @media screen and (max-width: 710px) {
-  .servicesContainer {
-    height: 260vh;
-  }
   .cardContainer {
     margin: 0.5rem;
-  }
-}
-@media screen and (max-width: 440px) {
-  .servicesContainer {
-    height: 300vh;
   }
 }

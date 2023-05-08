@@ -132,16 +132,13 @@
   .blogContainer {
     margin: 0.5rem;
   }
-  .blogsContainer {
-    height: 200vh;
-  }
   .divBlogs {
     padding: 0rem;
   }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 1000px) {
   .blogsContainer {
-    height: 250vh;
+    height: 170vh;
   }
 }

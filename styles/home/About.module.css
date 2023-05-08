@@ -29,15 +29,16 @@
   text-align: justify;
 }
 
+@media (max-width: 1000px) {
+  .aboutContainer {
+    height: 100vh;
+  }
+}
+
 @media (max-width: 880px) {
   .divTextAbout {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-  }
-}
-@media (max-width: 400px) {
-  .aboutContainer {
-    height: 200vh;
   }
 }
