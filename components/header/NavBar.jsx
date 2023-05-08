@@ -12,23 +12,35 @@ const NavBar = () => {
         </a>
         <ul className={styles.navBar}>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/" style={{ padding: "0 1rem" }}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="/camps">Camps</Link>
+            <Link href="/camps" style={{ padding: "0 1rem" }}>
+              Camps
+            </Link>
+          </li>
+          {/* <li>
+            <Link href="/lessons" style={{ padding: "0 1rem" }}>
+              Lessons
+            </Link>
           </li>
           <li>
-            <Link href="/lessons">Lessons</Link>
+            <Link href="/about" style={{ padding: "0 1rem" }}>
+              About
+            </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/blog" style={{ padding: "0 1rem" }}>
+              Blog
+            </Link>
           </li>
           <li>
-            <Link href="/blog">Blog</Link>
-          </li>
-          <li>
-            <Link href="/contact">Contact</Link>
-          </li>
+            <Link href="/contact" style={{ padding: "0 1rem" }}>
+              Contact
+            </Link>
+          </li> */}
         </ul>
       </div>
     </>
