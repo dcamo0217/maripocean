@@ -30,42 +30,6 @@
   text-align: justify;
   color: #0a676d;
 }
-.contactButtonDiv {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 2rem;
-  width: 100%;
-  max-width: 600px;
-}
-.contactContainer {
-  background-image: url("/pictures/camps/contacts-image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 84vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 6rem;
-  justify-content: center;
-}
-.contactText {
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-  color: white;
-  text-shadow: 0px 0px 5px #000;
-  margin-top: 3rem;
-}
-.contactTitle {
-  font-family: "Calistoga", cursive;
-  font-size: 34px;
-  color: white;
-  text-shadow: 0px 0px 5px #000;
-  margin-top: 2rem;
-}
 
 .faqContainer {
   display: flex;
@@ -96,12 +60,6 @@
   .campsCarousel {
     width: 100%;
     padding: 1rem;
-  }
-}
-
-@media (max-width: 660px) {
-  .contactButtonDiv {
-    flex-direction: column;
   }
 }
 @media (max-width: 520px) {

@@ -3,7 +3,7 @@ import Button from "../Button";
 import styles from "./../../styles/home/Services.module.css";
 import PropTypes from "prop-types";
 
-const CardService = ({ textTitle, textBttn, urlImg }) => {
+const CardService = ({ textTitle, textBttn, urlImg, urlBttn }) => {
   return (
     <div
       className={styles.cardContainer}
@@ -12,7 +12,7 @@ const CardService = ({ textTitle, textBttn, urlImg }) => {
       <div className={styles.cardContent}>
         <p className={styles.titleCard}>{textTitle}</p>
         <div className={styles.buttonDivCard}>
-          <Button textButton={textBttn} typeBtn="second" />
+          <Button textButton={textBttn} typeBtn="second" url={`${urlBttn}`} />
         </div>
       </div>
     </div>

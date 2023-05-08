@@ -25,18 +25,18 @@ const NavBar = () => {
             <Link href="/lessons" style={{ padding: "0 1rem" }}>
               Lessons
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/about" style={{ padding: "0 1rem" }}>
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/blog" style={{ padding: "0 1rem" }}>
               Blog
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link href="/contact" style={{ padding: "0 1rem" }}>
               Contact
             </Link>

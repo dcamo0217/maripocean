@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./../../styles/home/About.module.css";
-import Button from "../Button";
+import styles from "../../../styles/home/About.module.css";
+import Button from "../../Button";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
           about sports. Is about local tourism. Our top restaurants, exclusive
           accommodations and unique spots are waiting for you.{" "}
         </p>
-        <Button textButton="More about us" typeBtn="primary" />
+        <Button textButton="More about us" typeBtn="primary" url={"/about"} />
       </div>
     </div>
   );

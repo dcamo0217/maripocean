@@ -52,6 +52,7 @@
   height: 50px;
   flex-wrap: wrap;
   text-shadow: 0px 0px 5px #000;
+  font-family: "Calistoga", cursive;
 }
 
 .titleHeader {

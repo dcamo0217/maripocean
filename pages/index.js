@@ -1,9 +1,9 @@
-import About from "@/components/about/About";
-import Blogs from "@/components/blogs/Blogs";
-import Footer from "@/components/footer/Footer";
+import About from "@/components/home/about/About";
+import Blogs from "@/components/home/blogs/Blogs";
+import Footer from "@/components/Footer";
 import Header from "@/components/header/Header";
-import Register from "@/components/register/Register";
-import Reviews from "@/components/reviews/Reviews";
+import Register from "@/components/home/register/Register";
+import Reviews from "@/components/home/reviews/Reviews";
 import Services from "@/components/services/Services";
 
 export default function Home() {
