@@ -1,92 +1,94 @@
 .buttonDivCard {
-    width: 100%;
-    padding-bottom: 2rem;
+  width: 100%;
+  padding-bottom: 2rem;
 }
 .cardContainer {
-    width: 100%;
-    max-width: 277px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  width: 100%;
+  max-width: 277px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
 }
 
 .cardContent {
-    height: auto;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), #0a676d);
-    padding: 1rem;
+  height: auto;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), #0a676d);
+  padding: 1rem;
 }
 
 .divCardsServices {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 1rem;
 }
 .servicesContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 30px;
-    height: 133vh;
-    background: #fff8ef;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  height: 133vh;
+  background: #fff8ef;
+  text-align: center;
 }
 
 .servicesContent {
-    margin: 2rem 8rem;
+  margin: 2rem 8rem;
 }
 
 .titleServices {
-    font-family: "Calistoga", cursive;
-    font-size: 34px;
-    margin-bottom: 2rem;
-    color: #08b4c0;
+  font-family: "Calistoga", cursive;
+  font-size: 34px;
+  margin-bottom: 2rem;
+  color: #08b4c0;
 }
 
 .textServices {
-    color: #0a676d;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
+  color: #0a676d;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .titleCard {
-    font-family: "Poppins", cursive;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    text-align: left;
-    font-size: 17px;
-    padding: 1rem;
+  font-family: "Poppins", cursive;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  text-align: left;
+  font-size: 17px;
+  padding: 1rem;
 }
 
 @media (max-width: 1180px) {
-    .servicesContent {
-        margin: 2rem 1rem;
-    }
+  .servicesContent {
+    margin: 2rem 1rem;
+  }
 }
 
 @media screen and (max-width: 980px) {
-    .servicesContainer {
-        height: 200vh;
-    }
-    .cardContainer {
-        margin: 0.5rem;
-    }
+  .servicesContainer {
+    height: 200vh;
+  }
+  .cardContainer {
+    margin: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 710px) {
-    .servicesContainer {
-        height: 260vh;
-    }
-    .cardContainer {
-        margin: 0.5rem;
-    }
+  .servicesContainer {
+    height: 260vh;
+  }
+  .cardContainer {
+    margin: 0.5rem;
+  }
 }
 @media screen and (max-width: 440px) {
-    .servicesContainer {
-        height: 300vh;
-    }
+  .servicesContainer {
+    height: 300vh;
+  }
 }
