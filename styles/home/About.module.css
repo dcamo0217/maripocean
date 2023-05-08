@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 133vh;
+  height: auto;
   width: 100vw;
   padding: 0 1rem;
 }
@@ -27,12 +27,6 @@
   font-family: "Poppins", sans-serif;
   padding-bottom: 2rem;
   text-align: justify;
-}
-
-@media (max-width: 1000px) {
-  .aboutContainer {
-    height: 100vh;
-  }
 }
 
 @media (max-width: 880px) {

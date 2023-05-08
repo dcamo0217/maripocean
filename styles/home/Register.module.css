@@ -3,12 +3,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: auto;
   text-align: center;
   background-image: url(/pictures/home/register-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 3rem 1rem;
 }
 
 .registerContentDiv {
@@ -66,10 +67,5 @@
   }
   .registerInput {
     margin-bottom: 1rem;
-  }
-}
-@media (max-width: 340px) {
-  .registerContainer {
-    height: 100vh;
   }
 }

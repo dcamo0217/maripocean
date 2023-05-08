@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 30px;
-  height: 133vh;
+  padding: 30px;
+  height: auto;
   background: #fff8ef;
   text-align: center;
   color: white;
@@ -134,11 +134,5 @@
   }
   .divBlogs {
     padding: 0rem;
-  }
-}
-
-@media (max-width: 1000px) {
-  .blogsContainer {
-    height: 170vh;
   }
 }
