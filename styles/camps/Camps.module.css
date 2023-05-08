@@ -78,3 +78,37 @@
   max-width: 1160px;
   margin: auto;
 }
+
+.bookContentContainer {
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .campsContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .campsContent {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .campsCarousel {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 660px) {
+  .contactButtonDiv {
+    flex-direction: column;
+  }
+}
+@media (max-width: 520px) {
+  .bookContentContainer {
+    flex-direction: column;
+  }
+  .campsTitle {
+    margin: 0;
+  }
+}

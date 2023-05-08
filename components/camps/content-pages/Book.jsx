@@ -39,17 +39,15 @@ const Book = () => {
         Choose your date in 2023
       </h3>
       <div className={styles.campsContainer} style={{ maxWidth: "none" }}>
-        <div style={{ width: "100%", display: "flex" }}>
-          {booksInfo.map((bookInfo) => (
-            <div className={styles.campsContent}>
-              <TitleCard title={bookInfo.date} />
-              <div style={{ display: "flex" }}>
-                <CheapBook {...bookInfo.earlyBird} />
-                <FullBook {...bookInfo.fullPrice} />
-              </div>
+        {booksInfo.map((bookInfo) => (
+          <div className={styles.campsContent}>
+            <TitleCard title={bookInfo.date} />
+            <div className={styles.bookContentContainer}>
+              <CheapBook {...bookInfo.earlyBird} />
+              <FullBook {...bookInfo.fullPrice} />
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );

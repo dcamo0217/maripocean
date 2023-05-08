@@ -7,15 +7,15 @@ import Reviews from "@/components/reviews/Reviews";
 import Services from "@/components/services/Services";
 
 export default function Home() {
-    return (
-        <>
-            <Header />
-            <About />
-            <Services />
-            <Reviews />
-            <Blogs />
-            <Register />
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <About />
+      <Services />
+      {/* <Reviews /> (oculto mientras se obtienes reviews)*/}
+      <Blogs />
+      <Register />
+      <Footer />
+    </>
+  );
 }

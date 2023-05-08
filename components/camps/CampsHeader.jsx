@@ -30,18 +30,12 @@ const CampsHeader = () => {
             The first exclusive all-inclusive weekend experience to try surf,
             kitesurf and wingfoil in Colombia
           </h1>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
+          <div className={styles.headerItemsContainer}>
             <p
               style={{
                 backgroundColor: "rgba(255 248 239 / 0.4)",
                 padding: "8px",
-                margin: "0 5px",
+                margin: "5px",
                 color: "#ffffff",
                 textShadow: "0px 0px 5px #000",
               }}
@@ -52,7 +46,7 @@ const CampsHeader = () => {
               style={{
                 backgroundColor: "rgba(255 248 239 / 0.4)",
                 padding: "8px",
-                margin: "0 5px",
+                margin: "5px",
                 color: "#ffffff",
                 textShadow: "0px 0px 5px #000",
               }}
@@ -63,7 +57,7 @@ const CampsHeader = () => {
               style={{
                 backgroundColor: "rgba(255 248 239 / 0.4)",
                 padding: "8px",
-                margin: "0 5px",
+                margin: "5px",
                 color: "#ffffff",
                 textShadow: "0px 0px 5px #000",
               }}

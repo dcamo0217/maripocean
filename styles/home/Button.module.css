@@ -1,12 +1,11 @@
 .mainButton {
   width: 100%;
   max-width: 220px;
-  margin: 0 auto;
+  margin: 5px auto;
   border: none;
   border-radius: 50px;
   font-family: "Poppins", sans-serif;
   background-color: #f7ad3e;
-
   font-size: medium;
   font-weight: 700;
   text-decoration: none;
@@ -20,4 +19,10 @@
 
 .second {
   padding: 0.2rem 0.8rem;
+}
+
+@media (max-width: 300px) {
+  .mainButton {
+    font-size: small;
+  }
 }

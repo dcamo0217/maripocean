@@ -24,6 +24,12 @@
   justify-content: space-around;
 }
 
+.headerItemsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .myVideo {
   position: absolute;
   height: 133vh;
@@ -63,5 +69,11 @@
   .navBarContainer {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 310px) {
+  .headerItemsContainer {
+    flex-direction: column;
   }
 }

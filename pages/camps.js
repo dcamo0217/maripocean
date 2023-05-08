@@ -30,7 +30,9 @@ const camps = () => {
       <CampsNav onSelect={handleOptionSelect} selectedOption={selectedOption} />
       <CampContent selectedOption={selectedOption} />
       <div className={styles.faqContainer}>
-        <h3 className={styles.campsTitle}>Frequently Asked Questions</h3>
+        <h3 className={styles.campsTitle} style={{ textAlign: "center" }}>
+          Frequently Asked Questions
+        </h3>
         <CampsContactNav
           onSelect={handleOptionSelectFAQ}
           selectedOption={selectedOptionFAQ}

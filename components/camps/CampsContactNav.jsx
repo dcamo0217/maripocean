@@ -29,7 +29,7 @@ const CampsContactNav = (props) => {
         }`}
         onClick={() => handleOptionClick("option3")}
       >
-        Booking / Cancellation
+        Booking/Cancellation
       </li>
       <li
         className={`${styles.navItem} ${

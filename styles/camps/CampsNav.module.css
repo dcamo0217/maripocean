@@ -7,6 +7,7 @@
   width: 70%;
   margin: 0 auto;
   list-style: none;
+  padding-left: 0;
 }
 
 .navItem {
@@ -15,6 +16,8 @@
   transition: all 0.2s;
   text-decoration: none;
   color: #0a676d;
+  margin: 0 5px;
+  text-align: center;
 }
 
 .selected {
@@ -25,4 +28,18 @@
   background-color: #f7ad3e;
   padding: 0.2rem 0.8rem;
   border-radius: 25px;
+}
+
+@media (max-width: 850px) {
+  .navList {
+    width: 90%;
+  }
+}
+@media (max-width: 653px) {
+  .navItem {
+    width: 177px;
+  }
+  .navList {
+    flex-wrap: wrap;
+  }
 }
