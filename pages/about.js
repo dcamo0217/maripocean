@@ -5,7 +5,7 @@ import Services from "@/components/services/Services";
 import styles from "../styles/about/About.module.css";
 import NavBar from "@/components/header/NavBar";
 import Button from "@/components/Button";
-import AboutCard from "@/components/about/aboutCard";
+import AboutCard from "@/components/about/AboutCard";
 
 const aboutCardData = [
   {
