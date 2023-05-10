@@ -1,3 +1,8 @@
+.campsLogo {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
 .divBttn {
   display: flex;
   justify-content: center;
@@ -6,6 +11,8 @@
 .headerContainer {
   position: relative;
   height: 133vh;
+  display: flex;
+  justify-content: center;
 }
 
 .headerContainer a {
@@ -34,7 +41,7 @@
 }
 
 .logo {
-  width: 100px;
+  width: 130px;
 }
 
 .navBarContainer {
@@ -47,19 +54,21 @@
 .navBar {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 50px;
   flex-wrap: wrap;
   text-shadow: 0px 0px 5px #000;
   font-family: "Calistoga", cursive;
+  font-size: 22px;
+  padding-left: 0;
 }
 
 .titleHeader {
   text-align: center;
   width: 60%;
   margin: 0 auto;
-  font-size: 34px;
+  font-size: 40px;
   color: white;
   text-shadow: 0px 0px 5px #000;
 }
@@ -82,8 +91,22 @@
     flex-direction: column;
     align-items: center;
   }
+  .campsLogo {
+    max-width: 140px;
+  }
+  .titleHeader {
+    font-size: 28px;
+  }
+  .navBar {
+    font-size: 16px;
+  }
 }
 
+@media (max-width: 355px) {
+  .titleHeader {
+    font-size: 20px;
+  }
+}
 @media (max-width: 310px) {
   .headerItemsContainer {
     flex-direction: column;

@@ -13,20 +13,20 @@
   color: #0a676d;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1160px;
+  max-width: 1320px;
   margin: auto;
 }
 
 .campsTitle {
   font-family: "Calistoga", cursive;
-  font-size: 30px;
+  font-size: 38px;
   color: #0a676d;
 }
 
 .campsText {
   font-family: "Poppins", sans-serif;
   margin-top: 1rem;
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
   color: #0a676d;
 }
@@ -47,7 +47,7 @@
   display: flex;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1190px) {
   .campsContainer {
     flex-direction: column;
     width: 100%;
@@ -62,7 +62,7 @@
     padding: 1rem;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 590px) {
   .bookContentContainer {
     flex-direction: column;
   }

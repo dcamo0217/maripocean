@@ -63,7 +63,7 @@ const WhoIsThisFor = () => {
             <p
               style={{
                 fontStyle: "italic",
-                fontSize: "11px",
+                fontSize: "14px",
                 color: "#00ABAB",
               }}
             >

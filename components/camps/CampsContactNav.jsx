@@ -13,7 +13,7 @@ const CampsContactNav = (props) => {
         }`}
         onClick={() => handleOptionClick("option1")}
       >
-        Lodging
+        Before Travel
       </li>
       <li
         className={`${styles.navItem} ${
@@ -21,7 +21,7 @@ const CampsContactNav = (props) => {
         }`}
         onClick={() => handleOptionClick("option2")}
       >
-        Before Travel
+        Booking/Cancellation
       </li>
       <li
         className={`${styles.navItem} ${
@@ -29,7 +29,7 @@ const CampsContactNav = (props) => {
         }`}
         onClick={() => handleOptionClick("option3")}
       >
-        Booking/Cancellation
+        Sports
       </li>
       <li
         className={`${styles.navItem} ${
@@ -37,7 +37,7 @@ const CampsContactNav = (props) => {
         }`}
         onClick={() => handleOptionClick("option4")}
       >
-        Sports
+        Lodging/Food
       </li>
       <li
         className={`${styles.navItem} ${

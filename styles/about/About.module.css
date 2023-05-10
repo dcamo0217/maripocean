@@ -12,7 +12,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 0 auto;
   width: 100%;
   padding: 0 1rem;
@@ -31,6 +31,9 @@
   align-items: center;
   justify-content: space-around;
   padding: 2rem 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .aboutHeaderTitle {
@@ -50,7 +53,7 @@
 }
 
 .aboutColumnTitle {
-  font-size: 25px;
+  font-size: 38px;
   font-weight: 700;
   color: #0a676d;
   font-family: "Calistoga", cursive;
@@ -60,6 +63,7 @@
 .aboutColumnText {
   font-family: "Poppins", sans-serif;
   padding: 0 3rem;
+  font-size: 16px;
 }
 
 .aboutImageContent {
@@ -94,7 +98,7 @@
 }
 
 .cardTitle {
-  font-size: 17px;
+  font-size: 24px;
   font-family: "Calistoga", cursive;
   padding: 1.5rem 3rem 0 3rem;
   width: 100%;
@@ -103,11 +107,11 @@
 .cardText {
   font-family: "Poppins", sans-serif;
   padding: 1.5rem 3rem 3rem 3rem;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .aboutTitle {
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 700;
   color: #0a676d;
   font-family: "Calistoga", cursive;

@@ -5,6 +5,7 @@
   align-items: center;
   padding-top: 4rem;
   width: 70%;
+  max-width: 1000px;
   margin: 0 auto;
   list-style: none;
   padding-left: 0;
@@ -18,6 +19,10 @@
   color: #0a676d;
   margin: 0 5px;
   text-align: center;
+}
+
+.navItem:hover {
+  text-shadow: 0px 0px 3px #00646446;
 }
 
 .selected {

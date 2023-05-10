@@ -12,32 +12,32 @@ const NavBar = () => {
         </a>
         <ul className={styles.navBar}>
           <li>
-            <Link href="/" style={{ padding: "0 1rem" }}>
+            <Link href="/" style={{ padding: "0 0.5rem" }}>
               Home
             </Link>
           </li>
           <li>
-            <Link href="/camps" style={{ padding: "0 1rem" }}>
+            <Link href="/camps" style={{ padding: "0 0.5rem" }}>
               Camps
             </Link>
           </li>
           {/* <li>
-            <Link href="/lessons" style={{ padding: "0 1rem" }}>
+            <Link href="/lessons" style={{ padding: "0 0.5rem" }}>
               Lessons
             </Link>
           </li> */}
           <li>
-            <Link href="/about" style={{ padding: "0 1rem" }}>
+            <Link href="/about" style={{ padding: "0 0.5rem" }}>
               About
             </Link>
           </li>
           {/* <li>
-            <Link href="/blog" style={{ padding: "0 1rem" }}>
+            <Link href="/blog" style={{ padding: "0 0.5rem" }}>
               Blog
             </Link>
           </li> */}
           {/* <li>
-            <Link href="/contact" style={{ padding: "0 1rem" }}>
+            <Link href="/contact" style={{ padding: "0 0.5rem" }}>
               Contact
             </Link>
           </li> */}

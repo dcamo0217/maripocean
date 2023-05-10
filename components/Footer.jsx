@@ -5,10 +5,16 @@ const Footer = () => {
   return (
     <div className={styles.footerContainer}>
       <div>
-        <p className={styles.title}>Camps</p>
+        <p className={styles.title}>
+          <a href="/camps">Camps</a>
+        </p>
         <p className={styles.text}>Despertar Oceánico</p>
-        <p className={styles.title}>About</p>
-        <p className={styles.title}>Blog</p>
+        <p className={styles.title}>
+          <a href="/about">About</a>
+        </p>
+        <p className={styles.title}>
+          <a href="/">Blog</a>
+        </p>
       </div>
       <div>
         <p className={styles.title}>Daytrips</p>
@@ -20,7 +26,9 @@ const Footer = () => {
       </div>
       <div>
         <p className={styles.title}>Contact</p>
-        <p className={styles.text}>Email: info@maripocean.com</p>
+        <p className={styles.text}>
+          Email: <a href="mailto:info@maripocean.com">info@maripocean.com</a>
+        </p>
         <p className={styles.text}>Whatsapp +57-305 893 2429</p>
         <div className={styles.network}>
           <p className={styles.title}>Follow us:</p>

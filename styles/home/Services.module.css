@@ -38,12 +38,14 @@
 }
 
 .servicesContent {
-  margin: 2rem 8rem;
+  margin: 4rem 8rem;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .titleServices {
   font-family: "Calistoga", cursive;
-  font-size: 34px;
+  font-size: 38px;
   margin-bottom: 2rem;
   color: #08b4c0;
 }
@@ -53,6 +55,7 @@
   font-weight: 700;
   margin-bottom: 1.5rem;
   font-family: "Poppins", sans-serif;
+  font-size: 16px;
 }
 
 .titleCard {
@@ -60,13 +63,25 @@
   padding-bottom: 1rem;
   font-weight: bold;
   text-align: left;
-  font-size: 17px;
+  font-size: 16px;
   padding: 1rem;
 }
 
 @media (max-width: 1180px) {
   .servicesContent {
     margin: 2rem 1rem;
+  }
+}
+
+@media (max-width: 970px) {
+  .servicesContainer {
+    height: auto !important;
+  }
+}
+
+@media (min-height: 718px) {
+  .servicesContainer {
+    height: 100vh;
   }
 }
 

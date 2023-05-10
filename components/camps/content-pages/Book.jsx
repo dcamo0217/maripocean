@@ -8,7 +8,7 @@ const booksInfo = [
   {
     date: "June 30th - July 3rd",
     earlyBird: {
-      price: "$3.000.000 COP",
+      price: "$2.800.000 COP",
       valid: "thru May 31st",
     },
     fullPrice: {
@@ -19,7 +19,7 @@ const booksInfo = [
   {
     date: "August 4th - 7th",
     earlyBird: {
-      price: "$3.000.000 COP",
+      price: "$2.800.000 COP",
       valid: "thru May 31st",
     },
     fullPrice: {
@@ -38,7 +38,7 @@ const Book = () => {
       >
         Choose your date in 2023
       </h3>
-      <div className={styles.campsContainer} style={{ maxWidth: "none" }}>
+      <div className={styles.campsContainer}>
         {booksInfo.map((bookInfo) => (
           <div className={styles.campsContent}>
             <TitleCard title={bookInfo.date} />

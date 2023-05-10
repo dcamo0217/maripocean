@@ -3,13 +3,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: auto;
+  height: 100vh;
   text-align: center;
   background-image: url(/pictures/home/register-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  padding: 3rem 1rem;
+  padding: 6rem 1rem;
 }
 
 .registerContentDiv {
@@ -18,6 +18,7 @@
   align-items: center;
   justify-content: center;
   width: 70%;
+  max-width: 1000px;
   border-radius: 10px;
 }
 
@@ -30,19 +31,21 @@
   margin-bottom: 2rem;
 }
 .registerInput {
+  width: 100%;
+  max-width: 447px;
   padding: 1rem;
   background-color: transparent;
   border: solid 3px #fff;
   border-radius: 10px;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
 .registerInput::placeholder {
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
@@ -55,13 +58,17 @@
 
 .registerTitle {
   font-family: "Calistoga", cursive;
-  font-size: 34px;
+  font-size: 38px;
   margin-bottom: 2rem;
   text-shadow: 0px 0px 4px #414141;
   color: white;
 }
-
-@media (max-width: 510px) {
+@media (max-width: 1000px) {
+  .registerContainer {
+    height: auto;
+  }
+}
+@media (max-width: 750px) {
   .registerForm {
     flex-direction: column;
   }

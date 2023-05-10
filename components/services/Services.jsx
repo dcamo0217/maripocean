@@ -12,14 +12,14 @@ const cardInfo = [
   },
   {
     key: 2,
-    textTitle: "Clases y cursos con escuelas certificadas",
+    textTitle: "Classes and courses with certified schools",
     textBttn: "Book now",
     urlImg: "/pictures/home/card-services-image-2.png",
     urlBttn: "/camps",
   },
   {
     key: 3,
-    textTitle: "Daytrips y viajes de surf",
+    textTitle: "Daytrips and surf trips",
     textBttn: "Coming soon",
     urlImg: "/pictures/home/card-services-image-3.png",
     urlBttn: "https://wa.me/message/KCVNME7YYHBSA1",

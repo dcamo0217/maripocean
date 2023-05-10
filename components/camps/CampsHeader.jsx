@@ -18,11 +18,7 @@ const CampsHeader = () => {
         <div className={styles.headerContent}>
           <NavBar />
           <img
-            style={{
-              width: "100%",
-              maxWidth: "350px",
-              margin: "0 auto",
-            }}
+            className={styles.campsLogo}
             src="/pictures/camps/despertar-oceanico.png"
             alt=""
           />
