@@ -7,13 +7,13 @@ import Others from "./faq-pages/Others";
 
 const CampsContactContent = (props) => {
   if (props.selectedOption === "option1") {
-    return <Lodging />;
-  } else if (props.selectedOption === "option2") {
     return <BeforeTravel />;
-  } else if (props.selectedOption === "option3") {
+  } else if (props.selectedOption === "option2") {
     return <BookingCancel />;
-  } else if (props.selectedOption === "option4") {
+  } else if (props.selectedOption === "option3") {
     return <Sports />;
+  } else if (props.selectedOption === "option4") {
+    return <Lodging />;
   } else if (props.selectedOption === "option5") {
     return <Others />;
   }
