@@ -24,7 +24,7 @@ const Register = () => {
             id="email"
           />
         </form>
-        <Button textButton="Sign up now" typeBtn="primary" />
+        <Button textButton="Sign up now" typeBtn="primary" url="" />
       </div>
     </div>
   );

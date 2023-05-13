@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import styles from "./../../styles/home/Header.module.css";
 import Button from "../Button";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -20,7 +21,11 @@ function Header() {
           kitesurf and wingfoil in Colombia
         </h1>
         <div className={styles.divBttn}>
-          <Button textButton="Learn more" typeBtn="primary" />
+          <Button
+            textButton="Learn more"
+            typeBtn="primary"
+            url="#looking-for"
+          />
         </div>
       </div>
     </div>

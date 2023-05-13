@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./../styles/home/Button.module.css";
+import Link from "next/link";
 
 const Button = ({ textButton, typeBtn, url }) => {
   return (
-    <a href={url} className={`${styles.mainButton} ${styles[typeBtn]}`}>
+    <Link href={url} className={`${styles.mainButton} ${styles[typeBtn]}`}>
       {textButton}
-    </a>
+    </Link>
   );
 };
 

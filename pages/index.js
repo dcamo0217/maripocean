@@ -5,6 +5,7 @@ import Header from "@/components/header/Header";
 import Register from "@/components/home/register/Register";
 import Reviews from "@/components/home/reviews/Reviews";
 import Services from "@/components/services/Services";
+import ScriptTraslate from "@/components/ScriptTraslate";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Reviews />
       <Blogs />
       <Register />
+      <ScriptTraslate />
       <Footer />
     </>
   );

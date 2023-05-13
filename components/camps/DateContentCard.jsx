@@ -30,7 +30,7 @@ const DateContentCard = ({ title, available, level }) => {
         </div>
       </div>
       <div style={{ padding: "0.5rem 0" }}>
-        <Button textButton="Book now" typeBtn="second" />
+        <Button textButton="Book now" typeBtn="second" url="/camps#book-now" />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ const cardInfo = [
     textTitle: "Classes and courses with certified schools",
     textBttn: "Book now",
     urlImg: "/pictures/home/card-services-image-2.png",
-    urlBttn: "/camps",
+    urlBttn: "/camps#book-now",
   },
   {
     key: 3,
@@ -28,7 +28,7 @@ const cardInfo = [
 
 const Services = () => {
   return (
-    <div className={styles.servicesContainer}>
+    <div className={styles.servicesContainer} id="looking-for">
       <div className={styles.servicesContent}>
         <h2 className={styles.titleServices}>
           Looking for camps, courses, daytrips or just a lesson in surf,

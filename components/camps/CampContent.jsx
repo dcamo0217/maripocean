@@ -7,7 +7,9 @@ import WhatIsIncluded from "./content-pages/WhatIsIncluded";
 import Book from "./content-pages/Book";
 
 const CampContent = (props) => {
-  if (props.selectedOption === "option1") {
+  if (props.isBook === "/camps#book-now") {
+    return <Book />;
+  } else if (props.selectedOption === "option1") {
     return <Overview />;
   } else if (props.selectedOption === "option2") {
     return <WhoIsThisFor />;

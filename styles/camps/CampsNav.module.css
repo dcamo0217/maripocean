@@ -29,9 +29,14 @@
   color: #00abab !important;
 }
 
+.selectedBook {
+  color: #f7ad3e;
+  background-color: #0a676d !important;
+}
+
 .bookItem {
   background-color: #f7ad3e;
-  padding: 0.2rem 0.8rem;
+  padding: 0.2rem 2rem;
   border-radius: 25px;
 }
 

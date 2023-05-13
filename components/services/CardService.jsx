@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../Button";
 import styles from "./../../styles/home/Services.module.css";
 import PropTypes from "prop-types";
+import Link from "next/link";
 
 const CardService = ({ textTitle, textBttn, urlImg, urlBttn }) => {
   return (
@@ -12,7 +13,7 @@ const CardService = ({ textTitle, textBttn, urlImg, urlBttn }) => {
       <div className={styles.cardContent}>
         <p className={styles.titleCard}>{textTitle}</p>
         <div className={styles.buttonDivCard}>
-          <Button textButton={textBttn} typeBtn="second" url={`${urlBttn}`} />
+          <Button textButton={textBttn} typeBtn="second" url={urlBttn} />
         </div>
       </div>
     </div>

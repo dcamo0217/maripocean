@@ -40,11 +40,11 @@ const Blogs = () => {
             <p className={styles.trendingBlogCategory}>SERVICES</p>
           </div>
         </div>
-        <div className={styles.blogList}>
+        {/* <div className={styles.blogList}>
           {infoBlogs.map((blog) => (
             <Blog key={blog.title} blog={blog} />
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

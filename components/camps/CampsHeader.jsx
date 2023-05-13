@@ -62,7 +62,7 @@ const CampsHeader = () => {
             </p>
           </div>
           <div className={styles.divBttn}>
-            <Button textButton="Book now" typeBtn="primary" />
+            <Button textButton="Book now" typeBtn="primary" url="#" />
           </div>
         </div>
       </div>

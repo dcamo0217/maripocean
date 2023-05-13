@@ -29,7 +29,10 @@ const Footer = () => {
         <p className={styles.text}>
           Email: <a href="mailto:info@maripocean.com">info@maripocean.com</a>
         </p>
-        <p className={styles.text}>Whatsapp +57-305 893 2429</p>
+        <p className={styles.text}>
+          Whatsapp:{" "}
+          <a href="https://wa.me/message/KCVNME7YYHBSA1">+57-305 893 2429</a>
+        </p>
         <div className={styles.network}>
           <p className={styles.title}>Follow us:</p>
           <img
