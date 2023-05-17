@@ -99,6 +99,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
+div#google_translate_element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 0 1.5rem;
+}
 
 /* @media (prefers-color-scheme: dark) {
   html {

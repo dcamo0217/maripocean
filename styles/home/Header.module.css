@@ -64,6 +64,10 @@
   padding-left: 0;
 }
 
+.navbarTraslateDiv {
+  display: flex;
+}
+
 .titleHeader {
   text-align: center;
   width: 60%;

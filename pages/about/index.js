@@ -1,11 +1,11 @@
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Services from "@/components/services/Services";
-
-import styles from "../styles/about/About.module.css";
 import NavBar from "@/components/header/NavBar";
 import Button from "@/components/Button";
 import AboutCard from "@/components/about/AboutCard";
+
+import styles from "../../styles/about/About.module.css";
 
 const aboutCardData = [
   {

@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+
 import CampsHeader from "@/components/camps/CampsHeader";
 import CampsNav from "@/components/camps/CampsNav";
 import CampContent from "@/components/camps/CampContent";
 import Footer from "@/components/Footer";
-import styles from "../styles/camps/Camps.module.css";
 import CampsContactContent from "@/components/camps/CampsContactContent";
 import CampsContactNav from "@/components/camps/CampsContactNav";
 import Contact from "@/components/Contact";
+
+import styles from "../../styles/camps/Camps.module.css";
 
 const camps = () => {
   const router = useRouter();
