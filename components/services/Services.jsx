@@ -15,7 +15,7 @@ const cardInfo = [
     textTitle: "Classes and courses with certified schools",
     textBttn: "Book now",
     urlImg: "/pictures/home/card-services-image-2.png",
-    urlBttn: "/camps#book-now",
+    urlBttn: "https://wa.me/message/KCVNME7YYHBSA1",
   },
   {
     key: 3,

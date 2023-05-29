@@ -5,8 +5,9 @@
 }
 
 .cardTitleText {
-  font-family: "Roca Two Bold", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
+  font-weight: 800;
   font-size: 22px;
   text-align: center;
   text-transform: uppercase;

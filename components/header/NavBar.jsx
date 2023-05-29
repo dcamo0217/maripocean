@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 import styles from "./../../styles/home/Header.module.css";
+import GoogleTranslate from "../GoogleTranslate";
 
 const NavBar = () => {
   return (
@@ -43,6 +44,7 @@ const NavBar = () => {
             </Link>
           </li> */}
           </ul>
+          <GoogleTranslate />
         </div>
       </div>
     </>

@@ -10,7 +10,8 @@ const GoogleTranslate = () => {
 
     window.googleTranslateElementInit = () => {
       new window.google.translate.TranslateElement(
-        { pageLanguage: "en" },
+        { pageLanguage: "en", includedLanguages: "en,es,fr,de,it,pt" },
+
         "google_translate_element"
       );
     };

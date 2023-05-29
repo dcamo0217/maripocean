@@ -95,6 +95,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .navbarTraslateDiv {
+    flex-direction: column;
+  }
   .campsLogo {
     max-width: 140px;
   }

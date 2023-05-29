@@ -4,25 +4,38 @@ import Button from "../Button";
 
 import styles from "../../styles/camps/CampsCard.module.css";
 
-const FullBook = ({ price, valid }) => {
+const FullBook = ({ price: colombianPrice, dollarPrice, valid }) => {
   return (
     <div className={styles.fullPriceCardContent}>
       <h4 className={styles.fullPriceCardTitle}>Full price</h4>
-      <h3 className={styles.fullPriceCardPrice}>{price}</h3>
+      <h3 className={styles.fullPriceCardPrice}>{colombianPrice}</h3>
+      <h3 className={styles.fullPriceCardPrice}>{dollarPrice}</h3>
       <h4 className={styles.fullPriceCardValid}>Valid {valid}</h4>
 
-      <div style={{ padding: "0.5rem 0", filter: "grayscale(1)" }}>
+      <div
+        style={{
+          padding: "0.5rem 0",
+          filter: "grayscale(1)",
+          cursor: "default",
+        }}
+      >
         <Button
           textButton="Book via wiretransfer"
           typeBtn="second"
-          url={"https://wa.me/message/KCVNME7YYHBSA1"}
+          url={"/camps#book-now"}
         />
       </div>
-      <div style={{ padding: "0.5rem 0", filter: "grayscale(1)" }}>
+      <div
+        style={{
+          padding: "0.5rem 0",
+          filter: "grayscale(1)",
+          cursor: "default",
+        }}
+      >
         <Button
           textButton="Book via credit card"
           typeBtn="second"
-          url={"https://mpago.li/2XJ9BcH"}
+          url={"/camps#book-now"}
         />
       </div>
     </div>

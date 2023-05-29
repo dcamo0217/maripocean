@@ -4,11 +4,12 @@ import Button from "../Button";
 
 import styles from "../../styles/camps/CampsCard.module.css";
 
-const CheapBook = ({ price, valid }) => {
+const CheapBook = ({ title, price: colombianPrice, dollarPrice, valid }) => {
   return (
     <div className={styles.cheapBookCardContent}>
-      <h4 className={styles.cheapBookCardTitle}>Early Bird</h4>
-      <h3 className={styles.cheapBookCardPrice}>{price}</h3>
+      <h4 className={styles.cheapBookCardTitle}>{title}</h4>
+      <h3 className={styles.cheapBookCardPrice}>{colombianPrice}</h3>
+      <h3 className={styles.cheapBookCardPrice}>{dollarPrice}</h3>
       <h4 className={styles.cheapBookCardValid}>Valid {valid}</h4>
 
       <div style={{ padding: "0.5rem 0" }}>

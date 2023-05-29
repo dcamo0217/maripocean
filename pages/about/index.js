@@ -6,6 +6,7 @@ import Button from "@/components/Button";
 import AboutCard from "@/components/about/AboutCard";
 
 import styles from "../../styles/about/About.module.css";
+import HeadPages from "@/components/Head";
 
 const aboutCardData = [
   {
@@ -31,6 +32,7 @@ const aboutCardData = [
 export default function about() {
   return (
     <>
+      <HeadPages />
       <div className={styles.aboutHeaderContainer}>
         <NavBar />
         <h1 className={styles.aboutHeaderTitle}>

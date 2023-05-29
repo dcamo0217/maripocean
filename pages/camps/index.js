@@ -10,6 +10,7 @@ import CampsContactNav from "@/components/camps/CampsContactNav";
 import Contact from "@/components/Contact";
 
 import styles from "../../styles/camps/Camps.module.css";
+import HeadPages from "@/components/Head";
 
 const camps = () => {
   const router = useRouter();
@@ -34,6 +35,7 @@ const camps = () => {
 
   return (
     <div style={{ backgroundColor: "#FFF8EF" }}>
+      <HeadPages />
       <CampsHeader />
       <CampsNav
         onSelect={handleOptionSelect}

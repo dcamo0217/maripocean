@@ -5,12 +5,12 @@ import Header from "@/components/header/Header";
 import Register from "@/components/home/register/Register";
 import Reviews from "@/components/home/reviews/Reviews";
 import Services from "@/components/services/Services";
-import GoogleTranslate from "@/components/GoogleTranslate";
+import HeadPages from "@/components/Head";
 
 export default function Home() {
   return (
     <>
-      {/* <GoogleTranslate /> */}
+      <HeadPages />
       <Header />
       <About />
       <Services />

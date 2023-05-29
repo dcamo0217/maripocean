@@ -9,23 +9,31 @@ const booksInfo = [
   {
     date: "June 30th - July 3rd",
     earlyBird: {
+      title: "Early Bird",
       price: "$3.000.000 COP",
-      valid: "May 15st",
+      dollarPrice: "$660 USD",
+      valid: "May 31st ",
     },
     fullPrice: {
+      title: "Full Price",
       price: "$3.200.000 COP",
-      valid: "thru June 28st",
+      dollarPrice: "$707 USD",
+      valid: "June 28th",
     },
   },
   {
     date: "August 4th - 7th",
     earlyBird: {
+      title: "Early Bird",
       price: "$3.000.000 COP",
-      valid: "May 15st",
+      dollarPrice: "$660 USD",
+      valid: "June 30th",
     },
     fullPrice: {
+      title: "Full Price",
       price: "$3.200.000 COP",
-      valid: "thru June 28st",
+      dollarPrice: "$707 USD",
+      valid: "Aug 2nd",
     },
   },
 ];

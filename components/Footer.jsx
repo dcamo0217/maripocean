@@ -5,10 +5,11 @@ const Footer = () => {
   return (
     <div className={styles.footerContainer}>
       <div>
-        <p className={styles.title}>
-          <a href="/camps">Camps</a>
-        </p>
-        <p className={styles.text}>Despertar Oceánico</p>
+        <a href="/camps">
+          <p className={styles.title}>Camps</p>
+          <p className={styles.text}>Despertar Oceánico</p>
+        </a>
+
         <p className={styles.title}>
           <a href="/about">About</a>
         </p>
@@ -30,8 +31,9 @@ const Footer = () => {
           Email: <a href="mailto:info@maripocean.com">info@maripocean.com</a>
         </p>
         <p className={styles.text}>
-          Whatsapp:{" "}
-          <a href="https://wa.me/message/KCVNME7YYHBSA1">+57-305 893 2429</a>
+          <a href="https://wa.me/message/KCVNME7YYHBSA1">
+            Whatsapp: +57-305 893 2429
+          </a>
         </p>
         <div className={styles.network}>
           <p className={styles.title}>Follow us:</p>
