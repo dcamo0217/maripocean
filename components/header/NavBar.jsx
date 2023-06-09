@@ -14,32 +14,60 @@ const NavBar = () => {
         <div className={styles.navbarTraslateDiv}>
           <ul className={styles.navBar}>
             <li>
-              <Link href="/" style={{ padding: "0 0.5rem" }}>
+              <Link
+                href="/"
+                style={{
+                  padding: "0 0.5rem",
+                  color: "white",
+                  textDecoration: "none",
+                }}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/camps" style={{ padding: "0 0.5rem" }}>
+              <Link
+                href="/camps"
+                style={{
+                  padding: "0 0.5rem",
+                  color: "white",
+                  textDecoration: "none",
+                }}
+              >
                 Camps
               </Link>
             </li>
-            {/* <li>
-            <Link href="/lessons" style={{ padding: "0 0.5rem" }}>
-              Lessons
-            </Link>
-          </li> */}
             <li>
-              <Link href="/about" style={{ padding: "0 0.5rem" }}>
+              <Link
+                href="/lessons"
+                style={{
+                  padding: "0 0.5rem",
+                  color: "white",
+                  textDecoration: "none",
+                }}
+              >
+                Lessons
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                style={{
+                  padding: "0 0.5rem",
+                  color: "white",
+                  textDecoration: "none",
+                }}
+              >
                 About
               </Link>
             </li>
             {/* <li>
-            <Link href="/blog" style={{ padding: "0 0.5rem" }}>
+            <Link href="/blog" style={{ padding: "0 0.5rem", color: "white", textDecoration:"none" }}>
               Blog
             </Link>
           </li> */}
             {/* <li>
-            <Link href="/contact" style={{ padding: "0 0.5rem" }}>
+            <Link href="/contact" style={{ padding: "0 0.5rem", color: "white", textDecoration:"none" }}>
               Contact
             </Link>
           </li> */}

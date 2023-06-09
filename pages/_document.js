@@ -1,9 +1,14 @@
+import settings from "../settings";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <script
+          src={`https://maps.googleapis.com/maps/api/js?key=${settings?.googleMaps?.apiKey}&callback=initMap&libraries=&v=weekly`}
+          async
+        ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `

@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Carousel from "react-bootstrap/Carousel";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const Carrusel = ({ images }) => {
   return (

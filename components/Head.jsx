@@ -18,6 +18,8 @@ const HeadPages = () => (
         `,
       }}
     ></script>
+    <title>Maripocean</title>
+    {/* <meta name="description" content="Descripción de tu página" /> */}
   </Head>
 );
 

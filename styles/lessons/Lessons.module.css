@@ -1,0 +1,362 @@
+.blueText {
+  color: #0a676d;
+}
+
+.lessonsBody p,
+.lessonsBody ul {
+  margin-bottom: 0;
+}
+
+.lessonCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 730px;
+  margin: 1rem;
+  background-color: #fff;
+  color: #0a676d;
+}
+
+.lessonCardInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.lessonCardInfo img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.lessonCardInfo p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #0a676d;
+  font-family: "Poppins";
+}
+
+.lessonCardTitleCont {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.lessonCardTitleCont h2 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Calistoga";
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.lessonCardImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.lessonCardSkillsIncludes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 2.4rem;
+}
+
+.lessonCardSkillsIncludes div {
+  width: 100%;
+}
+.lessonCardSkillsIncludes ul {
+  width: 100%;
+}
+
+.lessonCardDetails {
+  width: 100%;
+  padding: 0rem 2.4rem 1rem 2.4rem;
+}
+
+.lessonCardSkillsIncludes h3,
+.lessonCardDetails h3 {
+  font-size: 14px;
+  font-weight: 900;
+  color: #0a676d;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.lessonCardSkillsIncludes li,
+.lessonCardDetails p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #0a676d;
+  font-family: "Poppins";
+}
+
+.lessonCardButton {
+  width: 100%;
+  padding-bottom: 2.4rem;
+  text-align: center;
+}
+
+.lessonsBtnContainer {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.lessonsCardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.lessonsCardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 1rem auto;
+}
+
+.lessonsContainer {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 3rem 4rem;
+  text-align: center;
+}
+
+.lessonsContent {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3rem 4rem;
+}
+
+.lessonsInterestedContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.lessonsImgContainer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lessonsHeaderContainer {
+  background-image: url(/pictures/lessons/lesson-header-image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.lessonsHeaderTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 2rem;
+  text-shadow: 0px 0px 5px #000;
+  font-family: "Calistoga", cursive;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.lessonsHeaderText {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 2rem;
+  text-shadow: 0px 0px 5px #000;
+  font-family: "Poppins", sans-serif;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.lessonsTitle {
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  font-family: "Calistoga", cursive;
+  margin: 0 auto;
+}
+
+.lessonsText {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a676d;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+
+.lessonsVisitRow,
+.lessonsBookingRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem 0;
+}
+
+.lessonsVisitColumn,
+.lessonsBookingColumn {
+  margin: 0 1rem 1rem 0;
+  width: 50%;
+}
+
+.lessonVisitTitleDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.lessonsVisitIcon {
+  width: 38px;
+  margin-right: 5px;
+}
+
+.lessonsVisitTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: "Calistoga", cursive;
+}
+
+.lessonsBookingColumn {
+  width: 100%;
+  max-width: 350px;
+}
+.lessonsBookingSubtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  font-family: "Calistoga", cursive;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.lessonsBookingText {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a676d;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.lessonsBookingContent {
+  background-color: #cfedef;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #0a676d;
+  margin: 2rem 0 0 0;
+}
+
+.lessonsBookingTitle {
+  font-size: 1rem;
+  font-weight: 800;
+
+  font-family: "Poppins Extrabold", sans-serif;
+  text-transform: uppercase;
+  margin: 0 auto 8px auto;
+  text-align: center;
+}
+.lessonsBookingColumnContent {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lessonsBookingDescription {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0a676d;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+
+.simpleCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 350px;
+  height: 350px;
+  margin: 1rem auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.simpleCardImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.simpleCardTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #0a676d;
+  margin-bottom: 2rem;
+  font-family: "Roca Two Bold", sans-serif;
+  margin: 0 auto;
+}
+
+.simpleCardText {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: #0a676d;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.simpleCardTextContainer {
+  padding: 1rem;
+}
+
+.textShadow {
+  text-shadow: 0px 0px 5px #000;
+}
+
+.whiteText {
+  color: #fff;
+}
