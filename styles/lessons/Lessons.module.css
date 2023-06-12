@@ -11,7 +11,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 730px;
   margin: 1rem;
   background-color: #fff;
@@ -162,7 +163,6 @@
 }
 
 .lessonsHeaderContainer {
-  background-image: url(/pictures/lessons/lesson-header-image.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -224,6 +224,10 @@
   width: 100%;
   max-width: 1200px;
   padding: 2rem 0;
+}
+.lessonsBookingArrow {
+  width: 20px;
+  margin: 1rem;
 }
 
 .lessonsVisitColumn,
@@ -359,4 +363,47 @@
 
 .whiteText {
   color: #fff;
+}
+
+@media screen and (max-width: 850px) {
+  .simpleCardContainer {
+    height: auto;
+    margin: 1rem 5px;
+  }
+
+  .lessonCardContainer {
+    height: auto;
+    flex-direction: column;
+  }
+  .lessonCardSkillsIncludes {
+    flex-direction: column;
+  }
+  .lessonCardSkillsIncludes ul {
+    width: fit-content;
+  }
+  .lessonsVisitRow {
+    flex-direction: column;
+  }
+  .lessonsVisitColumn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .lessonsBookingContent {
+    flex-direction: column;
+  }
+
+  .lessonsBookingArrow {
+    transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 550px) {
+  .lessonsBookingRow {
+    flex-direction: column;
+  }
+  .lessonsBookingColumn {
+    width: 100%;
+    max-width: 100%;
+  }
 }
