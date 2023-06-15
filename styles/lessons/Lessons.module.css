@@ -13,7 +13,7 @@
   align-items: center;
   width: 100%;
   max-width: 400px;
-  height: 730px;
+  height: 760px;
   margin: 1rem;
   background-color: #fff;
   color: #0a676d;
@@ -398,6 +398,21 @@
     transform: rotate(90deg);
   }
 }
+
+@media screen and (max-width: 620px) {
+  .lessonsHeaderContainer {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 580px) {
+  .lessonsHeaderTitle {
+    width: 100%;
+  }
+  .lessonsHeaderText {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .lessonsBookingRow {
     flex-direction: column;

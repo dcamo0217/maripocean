@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 import styles from "./../../styles/home/Header.module.css";
 import GoogleTranslate from "../GoogleTranslate";
+import Dropdown from "react-bootstrap/Dropdown";
 
 const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("");
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleOptionClick = (option) => {
+    setSelectedOption(option);
+    setIsOpen(false);
+  };
   return (
     <>
       <div className={styles.navBarContainer}>
@@ -38,16 +50,30 @@ const NavBar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href="/lessons"
-                style={{
-                  padding: "0 0.5rem",
-                  color: "white",
-                  textDecoration: "none",
-                }}
-              >
-                Lessons
-              </Link>
+              <Dropdown>
+                <Dropdown.Toggle id="dropdown-basic">Lessons</Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item
+                    href="/lessons/surf"
+                    style={{ color: "black", textShadow: "none" }}
+                  >
+                    Surf
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="/lessons/kitesurf"
+                    style={{ color: "black", textShadow: "none" }}
+                  >
+                    Kitesurf
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    href="/lessons/wingfoil"
+                    style={{ color: "black", textShadow: "none" }}
+                  >
+                    Wingfoil
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </li>
             <li>
               <Link

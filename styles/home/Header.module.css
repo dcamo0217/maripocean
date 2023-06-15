@@ -1,3 +1,45 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 0;
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  display: none; /* Por defecto, el menú está oculto */
+}
+
+.dropdown-menu li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block; /* Mostrar el menú cuando se pasa el cursor sobre el botón */
+}
+
 .campsLogo {
   width: 100%;
   max-width: 350px;
@@ -88,15 +130,24 @@
   .myVideo {
     height: 100vh;
   }
+  .navBarContainer {
+    flex-direction: column;
+  }
+  .navbarTraslateDiv {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 790px) {
   .navBarContainer {
     flex-direction: column;
     align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
   }
   .navbarTraslateDiv {
     flex-direction: column;
+    width: 100%;
   }
   .campsLogo {
     max-width: 140px;
@@ -109,6 +160,13 @@
   }
 }
 
+@media (max-width: 470px) {
+  .navBar {
+    height: auto;
+    padding: 1rem 0;
+    flex-direction: column;
+  }
+}
 @media (max-width: 355px) {
   .titleHeader {
     font-size: 20px;
