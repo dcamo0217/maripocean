@@ -38,27 +38,17 @@ const NavBar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                href="/camps"
-                style={{
-                  padding: "0 0.5rem",
-                  color: "white",
-                  textDecoration: "none",
-                }}
-              >
-                Camps
-              </Link>
-            </li>
-            <li>
               <Dropdown>
                 <Dropdown.Toggle id="dropdown-basic">Lessons</Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item
-                    href="/lessons/surf"
-                    style={{ color: "black", textShadow: "none" }}
-                  >
-                    Surf
+                  <Dropdown.Item>
+                    <Link
+                      style={{ color: "black", textShadow: "none" }}
+                      href="/lessons/surf"
+                    >
+                      Surf
+                    </Link>
                   </Dropdown.Item>
                   <Dropdown.Item
                     href="/lessons/kitesurf"
@@ -87,6 +77,19 @@ const NavBar = () => {
                 About
               </Link>
             </li>
+            <li>
+              <Link
+                href="/camps"
+                style={{
+                  padding: "0 0.5rem",
+                  color: "white",
+                  textDecoration: "none",
+                }}
+              >
+                Camps
+              </Link>
+            </li>
+
             {/* <li>
             <Link href="/blog" style={{ padding: "0 0.5rem", color: "white", textDecoration:"none" }}>
               Blog

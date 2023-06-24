@@ -13,6 +13,7 @@ import BookingProcess from "@/components/lessons/BookingProcess";
 import campsStyles from "../../styles/camps/Camps.module.css";
 import styles from "../../styles/lessons/Lessons.module.css";
 import Header from "@/components/lessons/Header";
+import HeadPages from "@/components/Head";
 
 const kitesurfCards = [
   {
@@ -108,6 +109,7 @@ const kitesurf = () => {
       className={styles.lessonsBody}
       style={{ backgroundColor: "#FFF8EF", color: "#fff" }}
     >
+      <HeadPages />
       {/* Header */}
       <Header {...kitesurfHeader} />
 
@@ -134,7 +136,7 @@ const kitesurf = () => {
           <Button
             textButton="Book now"
             typeBtn="primary"
-            url={"/camps/#book-now"}
+            url={"https://wa.link/frp6ic"}
           />
         </div>
       </div>
@@ -218,8 +220,6 @@ const kitesurf = () => {
                 under construction. The amazing Tren Turístico de las Flores is
                 being built and hopes to be finished by the end of 2023.
               </p>
-            </div>
-            <div className={styles.lessonsVisitColumn}>
               <div className={styles.lessonVisitTitleDiv}>
                 <img
                   className={styles.lessonsVisitIcon}
@@ -245,6 +245,8 @@ const kitesurf = () => {
                 Turn left and follow the instructions we sent you to locate the
                 kitesurf school.
               </p>
+            </div>
+            <div className={styles.lessonsVisitColumn}>
               <div className={styles.lessonVisitTitleDiv}>
                 <img
                   className={styles.lessonsVisitIcon}
@@ -319,6 +321,7 @@ const kitesurf = () => {
         description={
           "Did your first lesson and you’re in love with wingfoil? Coming back from another spot, camp or wingfoil school and you want to get a course adjusted to your level and objectives? We’ve got you covered. Inquire about our wingfoil courses, methodology and certified IKO instructors here."
         }
+        url={"https://wa.link/p99967 "}
       />
 
       {/* FAQ */}

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import NavBar from "@/components/header/NavBar";
 import Button from "@/components/Button";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -10,10 +9,11 @@ import FaqNavBar from "@/components/lessons/FaqNavBar";
 import FaqContent from "@/components/lessons/FaqContent";
 import InterestedCourse from "@/components/lessons/InterestedCourse";
 import BookingProcess from "@/components/lessons/BookingProcess";
+import Header from "@/components/lessons/Header";
+import HeadPages from "@/components/Head";
 
 import campsStyles from "../../styles/camps/Camps.module.css";
 import styles from "../../styles/lessons/Lessons.module.css";
-import Header from "@/components/lessons/Header";
 
 const surfCards = [
   {
@@ -102,6 +102,7 @@ const surf = () => {
       className={styles.lessonsBody}
       style={{ backgroundColor: "#FFF8EF", color: "#fff" }}
     >
+      <HeadPages />
       {/* Header */}
       <Header {...surfHeader} />
 
@@ -126,7 +127,7 @@ const surf = () => {
           <Button
             textButton="Book now"
             typeBtn="primary"
-            url={"/camps/#book-now"}
+            url={"https://wa.link/ksj645 "}
           />
         </div>
       </div>
@@ -279,6 +280,7 @@ const surf = () => {
         description={
           "Did your first lesson and you’re in love with surfing? Coming back from another spot, camp or surf school and you want to get a course adjusted to your level and objectives? We’ve got you covered. Inquire about our surfing courses, methodology and instructors here."
         }
+        url={"https://wa.link/1r997u "}
       />
 
       {/* FAQ */}

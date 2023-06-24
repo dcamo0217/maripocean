@@ -3,7 +3,7 @@ import Button from "../Button";
 
 import styles from "../../styles/lessons/Lessons.module.css";
 
-const InterestedCourse = ({ backgroundImg, title, description }) => {
+const InterestedCourse = ({ backgroundImg, title, description, url }) => {
   return (
     <div
       className={`${styles.lessonsImgContainer} ${styles.lessonsInterestedContainer}`}
@@ -25,7 +25,7 @@ const InterestedCourse = ({ backgroundImg, title, description }) => {
           {description}
         </p>
         <div className={styles.lessonsBtnContainer}>
-          <Button textButton="About Surf Courses" typeBtn="primary" url={""} />
+          <Button textButton="About Surf Courses" typeBtn="primary" url={url} />
         </div>
       </div>
     </div>

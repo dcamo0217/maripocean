@@ -13,7 +13,7 @@
   align-items: center;
   width: 100%;
   max-width: 400px;
-  height: 760px;
+  height: 850px;
   margin: 1rem;
   background-color: #fff;
   color: #0a676d;
@@ -127,16 +127,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 1rem auto;
 }
 
 .lessonsContainer {
   width: 100%;
-  max-width: 1080px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 3rem 4rem;
   text-align: center;
@@ -200,7 +199,7 @@
 }
 
 .lessonsTitle {
-  font-size: 2.3rem;
+  font-size: 38px;
   font-weight: 500;
   margin-bottom: 2rem;
   font-family: "Calistoga", cursive;
@@ -363,6 +362,15 @@
 
 .whiteText {
   color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+  .lessonsCardContainer {
+    flex-wrap: wrap;
+  }
+  .lessonCardContainer {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 850px) {

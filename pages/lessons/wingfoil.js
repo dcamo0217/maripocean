@@ -13,6 +13,7 @@ import Header from "@/components/lessons/Header";
 
 import campsStyles from "../../styles/camps/Camps.module.css";
 import styles from "../../styles/lessons/Lessons.module.css";
+import HeadPages from "@/components/Head";
 
 const wingfoilCards = [
   {
@@ -109,6 +110,7 @@ const wingfoil = () => {
       className={styles.lessonsBody}
       style={{ backgroundColor: "#FFF8EF", color: "#fff" }}
     >
+      <HeadPages />
       {/* Header */}
       <Header {...wingfoilHeader} />
 
@@ -134,7 +136,7 @@ const wingfoil = () => {
           <Button
             textButton="Book now"
             typeBtn="primary"
-            url={"/camps/#book-now"}
+            url={"https://wa.link/673bac"}
           />
         </div>
       </div>
@@ -193,20 +195,25 @@ const wingfoil = () => {
                 className={`${styles.lessonsText} ${styles.whiteText} ${styles.textShadow}`}
                 style={{ paddingBottom: "2rem" }}
               >
-                Our surfing sessions will take place at Pradomar, Puerto
-                Colombia, one of the most noble beaches to learn all types of
-                surfing in Colombia. Pradomar is located 20 km north of
-                Barranquilla and you can get here by car, by bus or by taxi,
-                Uber or Indriver. <br />
+                Our kitesurfing sessions will take place at Puerto Mocho in
+                Bocas de Ceniza, Barranquilla, one of the most noble beaches for
+                beginners and intermediate kitesurfing in Colombia. Puerto Mocho
+                is located 8 km north of Barranquilla and you can get here by
+                car, by bus or by taxi, Uber or Indriver. If you need help and
+                want private transportation for you, share via whatsapp and
+                we’ll help you get there safe and comfortable with a round trip
+                suited for you for an extra cost. <br />
                 <br />
-                The school is located inside Hotel Pradomar. You can reach by
-                requesting entrance from the Hotel main entrance or find the
-                nearest beach access after the Farmavida Drugstore, turning to
-                your right and walking up the beach.
+                There are important instructions you need to know prior to reach
+                us out:
+                <br />
+                <br />
+                Warning: Puerto Mocho and Boca de Ceniza access are not paved by
+                now and it might seem pretty adventurous at first, doing this
+                trip. The road is safe and plain, but is just a bit bumpy and
+                under construction. The amazing Tren Turístico de las Flores is
+                being built and hopes to be finished by the end of 2023.
               </p>
-              {/* <Map /> */}
-            </div>
-            <div className={styles.lessonsVisitColumn}>
               <div className={styles.lessonVisitTitleDiv}>
                 <img
                   className={styles.lessonsVisitIcon}
@@ -223,11 +230,17 @@ const wingfoil = () => {
                 className={`${styles.lessonsText} ${styles.whiteText} ${styles.textShadow}`}
                 style={{ paddingBottom: "2rem" }}
               >
-                The drive from Barranquilla to Pradomar takes about 23 minutes.
-                Take the Vía 40 highway south and follow the signs to Puerto
-                Colombia. Once you reach Puerto Colombia, follow the signs to
-                Hotel Pradomar.
+                Definitely is the most safe and comfortable option. The drive
+                from Barranquilla to Puerto Mocho takes about 30 minutes. Take
+                the Avenida Circunvalar and then Calle 110 looking for the
+                access to Las Flores Neighborhood. Once you reach the
+                conjunction next to Supermercado Ara, follow the road straight
+                to Bocas de Ceniza until you find the first beach at your left.
+                Turn left and follow the instructions we sent you to locate the
+                kitesurf school.
               </p>
+            </div>
+            <div className={styles.lessonsVisitColumn}>
               <div className={styles.lessonVisitTitleDiv}>
                 <img
                   className={styles.lessonsVisitIcon}
@@ -244,10 +257,13 @@ const wingfoil = () => {
                 className={`${styles.lessonsText} ${styles.whiteText} ${styles.textShadow}`}
                 style={{ paddingBottom: "2rem" }}
               >
-                There are several bus companies that offer service from
-                Barranquilla to Pradomar. The bus ride takes about 30 minutes.
-                The bus fare is about $2 USD. Ask to be left in front of Hotel
-                Pradomar
+                An Indriver or taxi from Barranquilla to Puerto Mocho will cost
+                about $12-15 USD. The ride should take about 30 minutes. Your
+                challenge here is getting a cab or Indriver to accept to take
+                you to Bocas de Ceniza, as many prefer not to since the road is
+                not paved. You can ask them to leave you at Las Flores entrance
+                where you can get a moto taxi and head your way down to Puerto
+                Mocho.
               </p>
               <div className={styles.lessonVisitTitleDiv}>
                 <img
@@ -265,10 +281,24 @@ const wingfoil = () => {
                 className={`${styles.lessonsText} ${styles.whiteText} ${styles.textShadow}`}
                 style={{ paddingBottom: "2rem" }}
               >
-                An Indriver from Barranquilla to Pradomar will cost about $6
-                USD. Taxi and Uber might get a bit more pricey but not more than
-                $10 USD based on availability. The ride should take about 20
-                minutes.
+                There are several bus companies that offer service from
+                Barranquilla to Las Flores. The bus ride takes about 40 minutes.
+                The bus fare is about $2 USD. You’ll be left in Las Flores,
+                please beware of your safety if you choose this journey. Then
+                ask for a moto taxi to take you to Puerto Mocho, to the kitesurf
+                school. Keep your whatsapp at hand only to reach us out if you
+                get lost finding your way. Beware of your personal belongings if
+                you choose the bus adventure.
+              </p>
+              <p
+                className={`${styles.lessonsText} ${styles.whiteText} ${styles.textShadow}`}
+                style={{ paddingBottom: "2rem" }}
+              >
+                We can make things simple for you and arrange private
+                transportation and a round trip to pick you up from home and
+                leave you there after your session for an extra cost. This
+                shouldn’t stop your wingfoil adventure. Inquire about our
+                options via whatsapp.
               </p>
             </div>
           </div>
@@ -278,13 +308,14 @@ const wingfoil = () => {
       {/* Booking process  */}
       <BookingProcess />
 
-      {/* ¿Interested in a surf course?  */}
+      {/* ¿Interested in a wingfoil course?  */}
       <InterestedCourse
         backgroundImg={"/pictures/lessons/wingfoil/lesson-interested-image.png"}
-        title={"¿Interested in a kitesurf course?"}
+        title={"¿Interested in a wingfoil course?"}
         description={
           "Did your first lesson and you’re in love with wingfoil? Coming back from another spot, camp or wingfoil school and you want to get a course adjusted to your level and objectives? We’ve got you covered. Inquire about our wingfoil courses, methodology and certified IKO instructors here."
         }
+        url={"https://wa.link/0pn4gl"}
       />
 
       {/* FAQ */}

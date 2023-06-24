@@ -9,6 +9,18 @@ const Footer = () => {
           <p className={styles.title}>Camps</p>
           <p className={styles.text}>Despertar Oceánico</p>
         </a>
+        <p className={styles.title}>Lessons</p>
+        <div style={{ display: "flex" }}>
+          <p className={styles.text}>
+            <a href="/lessons/surf">Surf</a>
+          </p>
+          <p className={styles.text}>
+            <a href="/lessons/kitesurf">Kitesurf</a>
+          </p>
+          <p className={styles.text}>
+            <a href="/lessons/wingfoil">Wingfoil</a>
+          </p>
+        </div>
 
         <p className={styles.title}>
           <a href="/about">About</a>
@@ -18,7 +30,6 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <p className={styles.title}>Daytrips</p>
         <ul className={styles.footerUl}>
           <li className={styles.text}>Surf Glimpse</li>
           <li className={styles.text}>Wind Glimpse</li>
