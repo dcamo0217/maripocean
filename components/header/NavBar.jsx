@@ -3,20 +3,28 @@ import Link from "next/link";
 
 import styles from "./../../styles/home/Header.module.css";
 import GoogleTranslate from "../GoogleTranslate";
+// import toggleDropdown from "../../utils/dropdown.js";
 import Dropdown from "react-bootstrap/Dropdown";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("");
+  const [selectedOption, setSelectedOption] = useState(null);
+
+  const options = [
+    { value: "surf", label: "Surf" },
+    { value: "kitesurf", label: "Kitesurf" },
+    { value: "wingfoil", label: "Wingfoil" },
+  ];
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleOptionClick = (option) => {
+  const selectOption = (option) => {
     setSelectedOption(option);
     setIsOpen(false);
   };
+
   return (
     <>
       <div className={styles.navBarContainer}>
@@ -38,32 +46,33 @@ const NavBar = () => {
               </Link>
             </li>
             <li>
-              <Dropdown>
-                <Dropdown.Toggle id="dropdown-basic">Lessons</Dropdown.Toggle>
-
-                <Dropdown.Menu>
-                  <Dropdown.Item>
-                    <Link
-                      style={{ color: "black", textShadow: "none" }}
-                      href="/lessons/surf"
-                    >
-                      Surf
-                    </Link>
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    href="/lessons/kitesurf"
-                    style={{ color: "black", textShadow: "none" }}
-                  >
-                    Kitesurf
-                  </Dropdown.Item>
-                  <Dropdown.Item
-                    href="/lessons/wingfoil"
-                    style={{ color: "black", textShadow: "none" }}
-                  >
-                    Wingfoil
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
+              <div className={styles.dropdownStyle}>
+                <button className={styles.toggleStyle} onClick={toggleDropdown}>
+                  Lessons▾
+                </button>
+                {isOpen && (
+                  <ul className={styles.menuStyle}>
+                    {options.map((option) => (
+                      <li
+                        key={option.value}
+                        className={styles.listItemStyle}
+                        onClick={() => selectOption(option)}
+                      >
+                        <Link
+                          style={{
+                            textDecoration: "none",
+                            color: "#00b0bd",
+                            textShadow: "none",
+                          }}
+                          href={`/lessons/${option.value}`}
+                        >
+                          {option.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             </li>
             <li>
               <Link
@@ -77,13 +86,17 @@ const NavBar = () => {
                 About
               </Link>
             </li>
-            <li>
+            <li style={{ padding: "5px 0" }}>
               <Link
                 href="/camps"
                 style={{
-                  padding: "0 0.5rem",
+                  padding: "0.4rem 1rem",
+                  borderRadius: "5px",
                   color: "white",
                   textDecoration: "none",
+                  textShadow: "none",
+                  backgroundColor: "#08B4C0",
+                  border: "0",
                 }}
               >
                 Camps
