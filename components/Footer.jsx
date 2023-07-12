@@ -29,13 +29,13 @@ const Footer = () => {
           <a href="/">Blog</a>
         </p>
       </div>
-      <div>
+      {/* <div>
         <ul className={styles.footerUl}>
           <li className={styles.text}>Surf Glimpse</li>
           <li className={styles.text}>Wind Glimpse</li>
           <li className={styles.text}>Paddle Glimpse</li>
         </ul>
-      </div>
+      </div> */}
       <div>
         <p className={styles.title}>Contact</p>
         <p className={styles.text}>

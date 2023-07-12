@@ -11,9 +11,9 @@ const NavBar = () => {
   const [selectedOption, setSelectedOption] = useState(null);
 
   const options = [
-    { value: "surf", label: "Surf" },
-    { value: "kitesurf", label: "Kitesurf" },
-    { value: "wingfoil", label: "Wingfoil" },
+    { value: "/lessons/surf", label: "Surf" },
+    { value: "/lessons/kitesurf", label: "Kitesurf" },
+    { value: "/lessons/wingfoil", label: "Wingfoil" },
   ];
 
   const toggleDropdown = () => {
@@ -64,7 +64,7 @@ const NavBar = () => {
                             color: "#00b0bd",
                             textShadow: "none",
                           }}
-                          href={`/lessons/${option.value}`}
+                          href={option.value}
                         >
                           {option.label}
                         </Link>

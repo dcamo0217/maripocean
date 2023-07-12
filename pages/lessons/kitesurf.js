@@ -52,7 +52,7 @@ const kitesurfLessonsCard = [
 
     details:
       "Private lessons are the best way to fast track your kitesurfing skills. You can't beat one-on-one instruction from the top certified IKO kitesurf lessons in Bocas de Ceniza . Our instructors will set you up with the right gear and get you to the best downwinds and upwinds in Bocas de Ceniza.",
-    urlButton: "/camps/#book-now",
+    urlButton: "https://wa.link/frp6ic",
   },
   {
     title: "Semi-private lessons",
@@ -69,7 +69,7 @@ const kitesurfLessonsCard = [
 
     details:
       "If you want to share time on the water with a friend or family member, semi-private kitesurfing lessons are the way to go. Our instructors will set you and your friend up with the right gear and get you to the best kitesurf experience in Bocas de Ceniza.",
-    urlButton: "/camps/#book-now",
+    urlButton: "https://wa.link/frp6ic",
   },
   {
     title: "Group lessons",
@@ -86,7 +86,7 @@ const kitesurfLessonsCard = [
 
     details:
       "If you want to share time with a few friends traveling together or a big size family, group kitesurfing lessons are perfect for you. Our instructors will set you all up with the right gear and get you to the best kitesurf group experience in Bocas de Ceniza.",
-    urlButton: "/camps/#book-now",
+    urlButton: "https://wa.link/frp6ic",
   },
 ];
 
@@ -95,6 +95,7 @@ const kitesurfHeader = {
   title: "Connect with the power of the ocean wind at colombian caribbean",
   description:
     "From private to group lessons we match you with top certified local instructors for kitesurfing in Colombia",
+  url: "https://wa.link/frp6ic",
 };
 
 const kitesurf = () => {

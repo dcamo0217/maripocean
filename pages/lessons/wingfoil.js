@@ -52,7 +52,7 @@ const wingfoilLessonsCard = [
 
     details:
       "Private lessons are the best way to fast track your wingfoiling skills. You can't beat one-on-one instruction from the top certified IKO wingfoil lessons in Bocas de Ceniza . Our instructors will set you up with the right gear and get you to glide over Caribbean water.",
-    urlButton: "/camps/#book-now",
+    urlButton: "https://wa.link/673bac",
   },
   {
     title: "Semi-private lessons",
@@ -69,7 +69,7 @@ const wingfoilLessonsCard = [
 
     details:
       "If you want to share time on the water with a friend or family member, semi-private wingfoil lessons are the way to go. Our instructors will set you and your friend up with the right gear and get you to the best wingfoil experience in Bocas de Ceniza.",
-    urlButton: "/camps/#book-now",
+    urlButton: "https://wa.link/673bac",
   },
   {
     title: "Group lessons",
@@ -86,7 +86,7 @@ const wingfoilLessonsCard = [
 
     details:
       "If you want to share time with a few friends traveling together or a big size family, group wingfoil lessons are perfect for you. Our instructors will set you all up with the right gear and get you to the best kitesurf group experience in Bocas de Ceniza.",
-    urlButton: "/camps/#book-now",
+    urlButton: "https://wa.link/673bac",
   },
 ];
 
@@ -96,6 +96,7 @@ const wingfoilHeader = {
     "Connect with the power of the wingfoil gliding over the ocean at colombian caribbean",
   description:
     "From private to group lessons we match you with top certified local instructors for wingfoil Colombia",
+  url: "https://wa.link/673bac",
 };
 
 const wingfoil = () => {

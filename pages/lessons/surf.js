@@ -47,7 +47,7 @@ const surfLessonsCard = [
 
     details:
       "Private lessons are the best way to fast track your surfing skills. You can't beat one-on-one instruction from the top surf coaches in Pradomar . Our coaches will set you up with the right gear and get you to the best waves in Puerto Colombia to provide you with a truly unique surfing experience.",
-    urlButton: "/camps/#book-now",
+    urlButton: "https://wa.link/ksj645",
   },
   {
     title: "Semi-private lessons",
@@ -63,7 +63,7 @@ const surfLessonsCard = [
 
     details:
       "If you want to share time on the water with a friend or family member, semi-private surfing lessons are the way to go. Our coaches will set you and your friend up with the right gear and get you to the best waves in Puerto Colombia to provide you with a fun unique tandem surfing experience.",
-    urlButton: "/camps/#book-now",
+    urlButton: "https://wa.link/ksj645",
   },
   {
     title: "Group lessons",
@@ -79,7 +79,7 @@ const surfLessonsCard = [
 
     details:
       "If you want to share time with a few friends traveling together or a big size family, group surfing lessons are perfect for you. Our coaches will set you all up with the right gear and get you to the best waves in Puerto Colombia to provide you with a fun unique group surfing experience.",
-    urlButton: "/camps/#book-now",
+    urlButton: "https://wa.link/ksj645",
   },
 ];
 
@@ -88,6 +88,7 @@ const surfHeader = {
   title: "Connect with the power of the ocean wave at colombian caribbean",
   description:
     "From private to group lessons we match you with top certified local instructors for your surfing adventure in Colombia",
+  url: "https://wa.link/ksj645",
 };
 
 const surf = () => {
